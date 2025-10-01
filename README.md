@@ -366,8 +366,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or collaboration inquiries:
 
-- **Email**: your.email@institution.edu
-- **GitHub Issues**: [Open an issue](https://github.com/your-username/multi-agent-LLM-eval/issues)
+- **Email**: zarreen.naowal.reza@gmail.com
+- **GitHub Issues**: [Open an issue](https://github.com/znreza/multi-agent-LLM-eval-for-debate/issues)
 - **Workshop**: [NeurIPS 2025 LLM Evaluation Workshop](https://sites.google.com/view/llm-eval-workshop/home?authuser=0)
 
 ---
