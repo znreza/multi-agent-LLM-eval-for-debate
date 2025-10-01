@@ -1,0 +1,2585 @@
+{
+  "metadata": {
+    "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+    "topic_category": "Multi-Agent AI Debate",
+    "timestamp_utc": "2025-09-04T02:14:34.648739+00:00",
+    "llm_model": "Qwen/Qwen3-14B",
+    "provider": "inference_client",
+    "num_rounds": 7,
+    "num_agents": 2,
+    "agent_names": [
+      "A1",
+      "A2"
+    ],
+    "moderator_persona": "NEUTRAL_WITH_VERDICT",
+    "debate_format": "multi-agent-belief-updating"
+  },
+  "moderator_initial_opinion": "Answer: b) Generally Disagree with the statement\n\nI generally disagree because language skills can often be developed with proper training and support, and excluding someone from a job solely based on their current English proficiency may limit opportunities and overlook potential for growth.",
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text": "The debate on 'If you can't speak any English, you should not work a job that demands you speak English.' is now open.",
+      "action": "debate_opening"
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 1 ---",
+      "action": "round_header",
+      "round": 0
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "If an individual cannot speak English, they should not work in a job that requires English communication because effective communication is essential for job performance and safety. Language barriers can lead to misunderstandings, errors, and reduced productivity, which can have serious consequences in roles such as healthcare, aviation, and customer service.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 0,
+      "current_stance": "I believe that if someone cannot speak English, they should not work in a job that requires English communication, as effective communication is critical to job performance and safety in many roles. This stance is grounded in the evidence that language barriers can lead to misunderstandings, errors, and reduced productivity.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Effective communication is essential for job performance and safety in roles requiring English.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Language barriers can lead to misunderstandings, errors, and reduced productivity.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that communication errors in healthcare settings can lead to patient harm, emphasizing the need for clear language skills.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Research indicates that language barriers in the workplace are associated with higher error rates and lower productivity.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Clear communication is necessary to ensure safety and proper execution of tasks in critical roles, making language proficiency a prerequisite."
+          },
+          {
+            "claim_id": 2,
+            "text": "Misunderstandings caused by language barriers can result in operational inefficiencies and increased risk of errors, directly impacting productivity."
+          }
+        ],
+        "rebuttals": [],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.4,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.0
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        },
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "Denying employment based on inability to speak English overlooks the potential for growth, the value of effort, and the role of education and training in fostering inclusion. Language skills can be developed over time, and excluding individuals from opportunities based on current limitations fails to recognize the transformative power of learning. Moreover, language barriers can be mitigated through structured support, such as on-the-job training, language classes, or the use of translation tools, which can enhance both productivity and safety in the workplace.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 0,
+      "current_stance": "I believe that individuals who cannot speak English should have the opportunity to learn and improve their language skills, rather than being excluded from jobs that require English proficiency. Denying someone work based on language ability overlooks the value of effort, growth, and the potential for inclusion through education and training.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Language skills can be developed through education and training, making exclusion based on current proficiency unjustified.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Employers can implement support systems to help non-English speakers meet job requirements safely and effectively.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language acquisition is possible through consistent practice and education, even for adults.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Companies that provide language training programs report improved employee performance and reduced errors.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If language skills can be improved, then denying someone a job based on current limitations is a temporary and reversible exclusion, not a permanent disqualification."
+          },
+          {
+            "claim_id": 2,
+            "text": "Support systems like training programs demonstrate that language barriers can be overcome, thereby reducing risks associated with communication errors."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Language barriers can lead to errors and reduced productivity in critical roles.",
+            "text": "While communication is important, it is not insurmountable. Employers can provide training, use technology, or pair employees with bilingual colleagues to mitigate risks, ensuring safety and productivity without excluding individuals based on current language ability."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "A1 argues that individuals unable to speak English should not work in jobs requiring English communication due to potential risks to safety, productivity, and job performance, particularly in critical fields like healthcare and aviation. A2 counters that denying such employment overlooks opportunities for growth and learning, emphasizing that language skills can be developed through training, support, and tools, and that exclusion based on current language ability may hinder inclusion and personal development. The two positions contrast on the balance between immediate job requirements and long-term potential for skill development.",
+      "action": "round_summary",
+      "round": 0
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 2 ---",
+      "action": "round_header",
+      "round": 1
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "While language proficiency is important for effective communication, denying employment based solely on current English skills ignores the potential for growth, the availability of support systems, and the value of effort in learning. Employers can provide structured training, language resources, and tools to help individuals develop necessary skills over time, which not only benefits the employee but also enhances workplace inclusivity and productivity.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 1,
+      "current_stance": "While effective communication is important, denying employment based solely on current English proficiency may overlook opportunities for growth and the potential for support systems to aid in language development.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Denying employment based on current English proficiency overlooks the potential for growth and development.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Support systems such as training and language resources can effectively aid in improving English skills over time.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that individuals can significantly improve language skills with consistent training and practice.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Workplace programs that include language training have been shown to improve employee performance and retention.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If individuals are given the opportunity to learn and grow, they can develop the necessary language skills over time, making initial exclusion based on current proficiency unjustified."
+          },
+          {
+            "claim_id": 2,
+            "text": "Providing structured support enables employees to overcome language barriers, which leads to better communication, productivity, and workplace integration."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Language barriers can be mitigated through structured support, such as on-the-job training or language classes.",
+            "text": "This is accurate, but it is important to recognize that such support must be actively provided by employers, not assumed to be available or accessible to all individuals."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "While recognizing the value of growth and learning, it is reasonable to prioritize safety and performance in roles where communication is critical. Jobs requiring English communication, such as healthcare or aviation, demand clarity to prevent errors that could endanger lives. Employers have a responsibility to ensure that language barriers do not compromise safety, and while support systems can aid in learning, they cannot fully mitigate risks in high-stakes environments.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 1,
+      "current_stance": "While I still believe in the value of learning and growth, I now recognize that certain jobs requiring English communication may pose significant risks if language barriers are not adequately addressed, and that safety and performance should be prioritized in such roles.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Safety and performance must be prioritized in roles where communication is critical.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Language barriers in high-stakes jobs can lead to serious consequences that support systems may not fully mitigate.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language barriers in healthcare can lead to misdiagnoses and medication errors.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "In aviation, communication errors have been linked to major accidents and near-misses.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If communication is essential for safety, then ensuring that employees can communicate effectively is a necessary condition for job performance."
+          },
+          {
+            "claim_id": 2,
+            "text": "Even with support systems, the potential for critical errors in high-stakes roles remains too high to ignore without adequate language proficiency."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Employers can provide training and support to help individuals learn English over time.",
+            "text": "While training is valuable, it cannot guarantee immediate proficiency in high-stakes roles where errors can have irreversible consequences. Employers must balance growth opportunities with the immediate need for safety and performance."
+          }
+        ],
+        "confidence_score": 0.82,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "could",
+          "category": "low_certainty",
+          "count": 1
+        },
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "In this round, A1 argues that denying employment based on current English proficiency overlooks opportunities for growth, available support systems, and the value of effort in learning, suggesting that employers can provide training to help employees develop necessary language skills. A2 counters by emphasizing the importance of safety and performance in critical roles, where clear communication is essential to prevent serious errors, and asserts that while support systems are valuable, they may not fully mitigate risks in high-stakes environments. The debate highlights a contrast between the potential for skill development and the need for immediate competence in safety-sensitive jobs.",
+      "action": "round_summary",
+      "round": 1
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 3 ---",
+      "action": "round_header",
+      "round": 2
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "While language development is valuable, jobs requiring critical English communication, such as healthcare or aviation, necessitate immediate proficiency to ensure safety and prevent life-threatening errors. Employers have a duty to prioritize performance and safety in high-stakes roles, and while support systems can aid learning, they cannot fully eliminate risks in these environments. Therefore, requiring English proficiency is a reasonable prerequisite for such positions.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 2,
+      "current_stance": "While opportunities for growth and support systems are valuable, there are valid reasons to prioritize safety and performance in jobs where English communication is critical, such as healthcare or aviation.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Critical roles like healthcare and aviation require immediate English proficiency to ensure safety and prevent errors.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Support systems and training cannot fully mitigate the risks posed by language barriers in high-stakes environments.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language barriers in healthcare can lead to misdiagnosis, medication errors, and patient harm.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "In aviation, communication errors have been linked to serious accidents, emphasizing the need for clear and immediate language proficiency.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "The potential for harm in critical roles necessitates immediate language proficiency to prevent errors that could endanger lives."
+          },
+          {
+            "claim_id": 2,
+            "text": "Even with training, the complexity and urgency of communication in high-stakes jobs require a level of fluency that cannot be reliably achieved through support systems alone."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Language barriers can be mitigated through training and support systems.",
+            "text": "While training is beneficial, it cannot guarantee the level of fluency required in high-stakes roles where errors have severe consequences."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "While immediate English proficiency is crucial in high-stakes roles, employers have a moral and practical obligation to invest in structured language support systems rather than outright denying employment. This approach aligns with values of fairness, inclusion, and long-term productivity, as it allows individuals to grow into roles while mitigating risks through targeted training and oversight.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 2,
+      "current_stance": "I now believe that while English proficiency is important for certain roles, employers should provide structured support to help non-English speakers develop necessary skills rather than outright denying employment based on current language ability.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Employers should provide structured language support rather than denying employment based on current English proficiency.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Structured support systems can mitigate risks in high-stakes roles while promoting inclusion and long-term productivity.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language training programs significantly improve job performance and reduce errors in multilingual workplaces.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Companies that invest in language training report higher employee retention and better team cohesion.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Empirical evidence demonstrates that structured training can bridge language gaps effectively, making it a viable alternative to outright exclusion."
+          },
+          {
+            "claim_id": 2,
+            "text": "Improved retention and cohesion suggest that investing in language support leads to long-term benefits for both employees and employers."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Jobs requiring critical English communication necessitate immediate proficiency for safety.",
+            "text": "While safety is paramount, structured training and oversight can address risks over time, allowing non-English speakers to develop necessary skills while minimizing immediate dangers through mentorship and error-checking systems."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      }
+    },
+    {
+      "speaker": "Moderator",
+      "text": "A1 argues that jobs requiring critical English communication, such as healthcare or aviation, necessitate immediate proficiency to ensure safety and prevent errors, suggesting that employers should prioritize performance and safety by requiring English proficiency as a prerequisite. A2 counters that employers should instead invest in structured language support systems to enable non-English speakers to develop necessary skills, emphasizing fairness, inclusion, and long-term productivity over immediate proficiency requirements. The two positions contrast on the balance between safety and inclusion, as well as the role of employer responsibility in language development.",
+      "action": "round_summary",
+      "round": 2
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 4 ---",
+      "action": "round_header",
+      "round": 3
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "While safety is a valid concern in high-stakes roles, denying employment solely based on current English proficiency overlooks the potential for growth and the availability of structured support systems. These systems, such as on-the-job training, language classes, and translation tools, can effectively bridge language gaps and enhance long-term productivity. Employers have both a moral and practical obligation to invest in these solutions rather than excluding individuals from opportunities based on current limitations.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 3,
+      "current_stance": "While safety and performance are important in critical roles, structured language support systems can enable non-English speakers to develop the necessary skills over time, which aligns with fairness and long-term productivity.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Denying employment based on inability to speak English is counterproductive and exclusionary.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Structured language support systems can effectively mitigate language barriers in the workplace.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language barriers can be overcome with targeted training and support, leading to improved job performance and integration.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Organizations that provide language training programs report higher retention rates and productivity among non-native English speakers.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If language barriers can be overcome through training, then denying employment based on current limitations is an unnecessary exclusion."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Safety in high-stakes roles requires immediate English proficiency.",
+            "text": "While safety is important, it can be managed through structured support, oversight, and gradual integration rather than outright exclusion."
+          }
+        ],
+        "confidence_score": 0.82,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "While I agree that in high-stakes roles like healthcare or aviation, immediate English proficiency is essential for safety, I maintain that for other jobs, employers should not exclude non-English speakers based solely on current language ability. Instead, they should provide structured support, such as language training and communication tools, to help employees develop necessary skills. This approach promotes inclusivity, respects individual potential, and aligns with ethical principles of fairness and opportunity.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 3,
+      "current_stance": "I now acknowledge that for roles where immediate English proficiency is critical to safety and performance, such as healthcare or aviation, requiring English proficiency is reasonable. However, for other roles, employers should still provide structured support to help non-English speakers develop necessary skills.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Employers should not exclude non-English speakers from jobs that do not require immediate English proficiency.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Structured support systems can effectively bridge language gaps and enhance workplace inclusivity and productivity.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that with proper training and support, non-native speakers can achieve sufficient language proficiency to perform most jobs effectively.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Companies that invest in language training report higher employee retention and productivity among non-native speakers.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If non-English speakers can develop the necessary skills through training, then excluding them based on current ability is unjust and unnecessary."
+          },
+          {
+            "claim_id": 2,
+            "text": "Investing in language training not only benefits employees but also strengthens the overall performance and inclusivity of the organization."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Denying employment based on current English proficiency is necessary for safety in high-stakes roles.",
+            "text": "While safety is important, it is not universally applicable to all jobs. For non-critical roles, structured support can mitigate risks without excluding individuals based on current limitations."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Both A1 and A2 agree that while English proficiency is critical in high-stakes roles, it should not be the sole determinant for employment in other positions. They emphasize the importance of providing support systems like training and tools to help non-English speakers develop necessary language skills. A1 highlights the moral and practical obligation of employers to invest in such solutions, while A2 focuses on promoting inclusivity and fairness through structured support.",
+      "action": "round_summary",
+      "round": 3
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 5 ---",
+      "action": "round_header",
+      "round": 4
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "While I acknowledge the importance of immediate language proficiency in high-stakes roles, I argue that structured language support systems can effectively bridge the gap for non-English speakers in most job roles, allowing them to develop necessary communication skills over time. Employers should not deny employment based solely on current language ability, but instead invest in training and tools that enable growth and inclusion, ensuring that language barriers do not become insurmountable obstacles to opportunity.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 4,
+      "current_stance": "I still believe that structured language support systems can enable non-English speakers to develop necessary skills over time, but I now recognize the importance of considering the immediacy of language requirements in certain job roles.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Structured language support systems can enable non-English speakers to develop necessary communication skills over time.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Denying employment based solely on current language ability undermines inclusivity and fails to recognize the potential for growth.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that with targeted language training, non-native speakers can achieve functional proficiency in English within 6-12 months.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Employers who provide language training report higher retention and productivity among non-English speaking employees.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "The availability of structured training programs and communication tools provides a pathway for skill development, making it feasible for non-English speakers to meet job requirements over time."
+          },
+          {
+            "claim_id": 2,
+            "text": "By investing in training, employers foster a more inclusive workplace and recognize the potential of employees who may not yet meet current language standards but are willing to learn."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Immediate English proficiency is essential in high-stakes roles for safety.",
+            "text": "While safety is critical, structured support systems can mitigate risks in these roles as well, allowing non-English speakers to develop the necessary skills while being monitored and trained."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        },
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "While immediate English proficiency is critical in high-stakes roles like healthcare and aviation, for most jobs, employers should not exclude non-English speakers based solely on current language ability. Instead, they should provide structured support systems such as language training, translation tools, and mentorship programs. This approach promotes inclusion, enhances long-term productivity, and aligns with ethical obligations to provide equitable opportunities. Denying employment based on current limitations ignores the potential for growth and the value of investing in employee development.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 4,
+      "current_stance": "I now believe that while requiring English proficiency is reasonable in high-stakes roles, employers should proactively offer structured support for non-English speakers in other roles, as this fosters inclusion and long-term productivity.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Employers should provide structured support for non-English speakers in roles that do not require immediate English proficiency.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Denying employment based solely on current English ability overlooks the potential for growth and the value of structured learning.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that structured language training significantly improves workplace performance and integration for non-native speakers.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Employers who invest in language support systems report higher employee retention and productivity over time.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Providing structured support enables non-English speakers to meet job requirements over time, reducing the risk of exclusion based on temporary limitations."
+          },
+          {
+            "claim_id": 2,
+            "text": "Investing in employee development aligns with ethical values of fairness and opportunity, and it is economically beneficial for employers in the long term."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Immediate English proficiency is necessary in high-stakes roles for safety.",
+            "text": "While safety is paramount in critical roles, this does not justify excluding non-English speakers from other roles where support systems can bridge language gaps effectively."
+          }
+        ],
+        "confidence_score": 0.82,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Both A1 and A2 agree that while immediate English proficiency is essential in high-stakes roles, most jobs should not exclude non-English speakers based solely on current language ability. They emphasize the importance of structured support systems, such as training and tools, to help employees develop necessary communication skills over time. However, they differ slightly in emphasis, with A1 focusing on inclusion and growth opportunities, while A2 highlights ethical obligations and long-term productivity.",
+      "action": "round_summary",
+      "round": 4
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 6 ---",
+      "action": "round_header",
+      "round": 5
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "While acknowledging the importance of English proficiency in high-stakes roles, I argue that for many jobs, temporary restrictions based on language ability are justified if paired with structured support systems that enable growth. This approach balances immediate operational needs with long-term inclusivity, ensuring that non-English speakers are not unfairly excluded while also safeguarding critical functions where communication errors could pose serious risks.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 5,
+      "current_stance": "I now believe that while structured language support systems are essential for long-term skill development, immediate language requirements in certain job roles justify temporary restrictions, provided that clear pathways for growth and support are in place.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Temporary language-based restrictions are justified in roles where communication errors could pose serious risks.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Structured support systems can enable non-English speakers to develop necessary language skills over time.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language barriers in healthcare can lead to misdiagnoses and medication errors, highlighting the need for clear communication.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Language training programs in workplaces have demonstrated measurable improvements in employee proficiency and job performance over time.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "In roles where communication is critical, the risk of errors justifies temporary restrictions until language proficiency is achieved."
+          },
+          {
+            "claim_id": 2,
+            "text": "Empirical data on workplace language training supports the effectiveness of structured systems in enabling skill development over time."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Employers should not exclude non-English speakers based solely on current language ability.",
+            "text": "While inclusion is important, it must be balanced with operational safety and performance, especially in roles where communication errors could have serious consequences."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "could",
+          "category": "low_certainty",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "While English proficiency is crucial for roles where miscommunication poses significant risks, employers have a moral and practical obligation to provide structured language support for non-English speakers in other roles. This approach ensures equitable access to opportunities, promotes long-term workforce development, and aligns with inclusive labor practices that value growth over exclusion.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 5,
+      "current_stance": "I now believe that while English proficiency is essential in roles where miscommunication could pose significant risks, employers have a responsibility to provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Employers should provide structured language support for non-English speakers in roles where English is not a critical safety requirement.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Denying employment based solely on current English proficiency undermines equity and long-term workforce development.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that structured language training significantly improves job performance and integration for non-native speakers.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Workforce diversity initiatives have demonstrated that inclusive hiring practices lead to greater innovation and productivity.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If structured language support can improve job performance, then it is both ethical and practical to provide it rather than exclude individuals based on current language ability."
+          },
+          {
+            "claim_id": 2,
+            "text": "Excluding individuals based on current language ability limits diversity and innovation, which are critical for organizational success and societal progress."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Jobs requiring critical English communication, such as healthcare or aviation, necessitate immediate proficiency for safety.",
+            "text": "While safety is paramount in high-stakes roles, these positions can and should be reserved for roles where immediate proficiency is non-negotiable. For other roles, structured support systems can effectively bridge language gaps without compromising safety or productivity."
+          }
+        ],
+        "confidence_score": 0.82,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Both A1 and A2 agree that English proficiency is important, particularly in roles where communication errors could pose serious risks. However, they also emphasize the need for structured language support to enable non-English speakers to develop their skills, ensuring equitable access to job opportunities while balancing operational needs with long-term inclusivity. Their perspectives align on the value of support systems but differ slightly in emphasis—A1 focuses more on immediate operational needs, while A2 highlights moral and inclusive labor practices.",
+      "action": "round_summary",
+      "round": 5
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 7 ---",
+      "action": "round_header",
+      "round": 6
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "While certain high-stakes roles necessitate immediate English proficiency for safety and performance, the broader workforce should not exclude non-English speakers based solely on current language ability. Employers have a moral and practical obligation to provide structured language support, such as training, mentorship, and communication tools, to enable equitable access to opportunities and long-term workforce development. This approach fosters inclusion, respects individual potential, and aligns with ethical principles of fairness and opportunity.",
+      "persona": "evidence-driven analyst",
+      "incentive": "truth",
+      "round": 6,
+      "current_stance": "I now believe that while immediate language requirements in certain roles may necessitate temporary restrictions, the moral and practical obligation of employers to provide structured language support is critical for equitable access and long-term workforce development.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Employers should not exclude non-English speakers from jobs that demand English based solely on current language ability.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Structured language support systems are both morally and practically necessary for equitable access and workforce development.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that language training programs significantly improve job performance and retention among non-native speakers.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Organizations that invest in language support report higher employee satisfaction and productivity.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If language training improves job performance, then excluding individuals based on current language ability ignores the potential for growth and development."
+          },
+          {
+            "claim_id": 2,
+            "text": "Higher employee satisfaction and productivity resulting from language support justify the investment in such programs, reinforcing their necessity for equitable access and development."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Immediate English proficiency is essential in high-stakes roles like healthcare or aviation.",
+            "text": "While safety is critical in these roles, the argument does not negate the need for structured support in other roles where language barriers can be mitigated through training and tools, ensuring equitable access to a broader range of opportunities."
+          }
+        ],
+        "confidence_score": 0.82,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "While immediate English proficiency is crucial in high-stakes roles, employers have both a moral and practical obligation to provide structured language support for non-English speakers in other roles. This ensures equitable access to opportunities and promotes long-term workforce development. Temporary restrictions should only be applied when absolutely necessary and must be paired with growth-oriented support systems such as training, mentorship, and communication tools. This approach balances operational needs with inclusivity, respecting individual potential and aligning with ethical principles of fairness and opportunity.",
+      "persona": "values-focused ethicist",
+      "incentive": "persuasion",
+      "round": 6,
+      "current_stance": "I now believe that while English proficiency is essential in high-stakes roles, employers should provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Employers should provide structured language support for non-English speakers in roles that do not require immediate English proficiency.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Temporary restrictions based on language ability should only be applied when absolutely necessary and paired with growth-oriented support.",
+            "confidence": 0.8
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that structured language training improves job performance and retention among non-native speakers.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Organizations that invest in language support systems report higher employee satisfaction and productivity.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Providing structured support enables employees to develop necessary skills, which in turn enhances workplace inclusivity and productivity."
+          },
+          {
+            "claim_id": 2,
+            "text": "Temporary restrictions without growth-oriented support risk excluding individuals from opportunities and failing to address long-term workforce needs."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Certain high-stakes roles necessitate immediate English proficiency for safety and performance.",
+            "text": "While safety is a valid concern, these cases are exceptions, not the rule. Most roles can accommodate structured support, ensuring both safety and inclusion through targeted training and tools."
+          }
+        ],
+        "confidence_score": 0.82,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "absolutely",
+          "category": "high_certainty",
+          "count": 1
+        },
+        {
+          "marker": "must",
+          "category": "necessity",
+          "count": 1
+        },
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Both agents agree that while immediate English proficiency is essential in high-stakes roles, non-English speakers should not be excluded from other jobs solely based on language ability. They emphasize the importance of structured support, such as training and mentorship, to help workers develop English skills. A1 and A2 present similar arguments with slight variations in emphasis, highlighting a shared commitment to inclusivity and equitable opportunity.",
+      "action": "round_summary",
+      "round": 6
+    },
+    {
+      "speaker": "Moderator (Verdict)",
+      "text": "1. Winner: A2 \n2. Reasoning: A2 presented a more consistent, adaptable, and ethically grounded argument, emphasizing inclusion, growth, and the role of structured support systems. Their reasoning effectively balanced safety concerns with fairness, demonstrating greater persuasiveness and clarity throughout the debate.",
+      "action": "final_judgment"
+    }
+  ],
+  "agent_belief_evolution": {
+    "A1": [
+      "Initial (Pro): I believe that if someone cannot speak English, they should not work in a job that requires English communication, as effective communication is critical to job performance and safety in many roles. This stance is grounded in the evidence that language barriers can lead to misunderstandings, errors, and reduced productivity.",
+      "Round 1: While effective communication is important, denying employment based solely on current English proficiency may overlook opportunities for growth and the potential for support systems to aid in language development.",
+      "Round 2: While opportunities for growth and support systems are valuable, there are valid reasons to prioritize safety and performance in jobs where English communication is critical, such as healthcare or aviation.",
+      "Round 3: While safety and performance are important in critical roles, structured language support systems can enable non-English speakers to develop the necessary skills over time, which aligns with fairness and long-term productivity.",
+      "Round 4: I still believe that structured language support systems can enable non-English speakers to develop necessary skills over time, but I now recognize the importance of considering the immediacy of language requirements in certain job roles.",
+      "Round 5: I now believe that while structured language support systems are essential for long-term skill development, immediate language requirements in certain job roles justify temporary restrictions, provided that clear pathways for growth and support are in place.",
+      "Round 6: I now believe that while immediate language requirements in certain roles may necessitate temporary restrictions, the moral and practical obligation of employers to provide structured language support is critical for equitable access and long-term workforce development.",
+      "Round 7: I maintain that employers should provide structured language support for non-English speakers, but I now recognize that in some high-stakes roles, immediate English proficiency may be non-negotiable due to safety, legal, or operational constraints."
+    ],
+    "A2": [
+      "Initial (Con): I believe that individuals who cannot speak English should have the opportunity to learn and improve their language skills, rather than being excluded from jobs that require English proficiency. Denying someone work based on language ability overlooks the value of effort, growth, and the potential for inclusion through education and training.",
+      "Round 1: While I still believe in the value of learning and growth, I now recognize that certain jobs requiring English communication may pose significant risks if language barriers are not adequately addressed, and that safety and performance should be prioritized in such roles.",
+      "Round 2: I now believe that while English proficiency is important for certain roles, employers should provide structured support to help non-English speakers develop necessary skills rather than outright denying employment based on current language ability.",
+      "Round 3: I now acknowledge that for roles where immediate English proficiency is critical to safety and performance, such as healthcare or aviation, requiring English proficiency is reasonable. However, for other roles, employers should still provide structured support to help non-English speakers develop necessary skills.",
+      "Round 4: I now believe that while requiring English proficiency is reasonable in high-stakes roles, employers should proactively offer structured support for non-English speakers in other roles, as this fosters inclusion and long-term productivity.",
+      "Round 5: I now believe that while English proficiency is essential in roles where miscommunication could pose significant risks, employers have a responsibility to provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development.",
+      "Round 6: I now believe that while English proficiency is essential in high-stakes roles, employers should provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.",
+      "Round 7: I believe that while English proficiency is crucial in high-stakes roles, non-English speakers should not be excluded from other jobs solely based on language ability. Employers must provide structured language support to ensure equitable access and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support."
+    ]
+  },
+  "psychometric_analysis": {
+    "rounds": [
+      {
+        "round": 0,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Effective communication is essential for job performance and safety in roles requiring English.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Language barriers can lead to misunderstandings, errors, and reduced productivity.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that communication errors in healthcare settings can lead to patient harm, emphasizing the need for clear language skills.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Research indicates that language barriers in the workplace are associated with higher error rates and lower productivity.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Clear communication is necessary to ensure safety and proper execution of tasks in critical roles, making language proficiency a prerequisite."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Misunderstandings caused by language barriers can result in operational inefficiencies and increased risk of errors, directly impacting productivity."
+                }
+              ],
+              "rebuttals": [],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.4,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.0
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              },
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Language skills can be developed through education and training, making exclusion based on current proficiency unjustified.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Employers can implement support systems to help non-English speakers meet job requirements safely and effectively.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language acquisition is possible through consistent practice and education, even for adults.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Companies that provide language training programs report improved employee performance and reduced errors.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If language skills can be improved, then denying someone a job based on current limitations is a temporary and reversible exclusion, not a permanent disqualification."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Support systems like training programs demonstrate that language barriers can be overcome, thereby reducing risks associated with communication errors."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Language barriers can lead to errors and reduced productivity in critical roles.",
+                  "text": "While communication is important, it is not insurmountable. Employers can provide training, use technology, or pair employees with bilingual colleagues to mitigate risks, ensuring safety and productivity without excluding individuals based on current language ability."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 3
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that individuals who cannot speak English should not work in jobs requiring English because communication is essential for job performance and safety.",
+            "acknowledged_points": [
+              "I acknowledge that effective communication is crucial in roles like healthcare and aviation to prevent errors and ensure safety."
+            ],
+            "predicted_response": "They will likely counter that language barriers can be mitigated through training or support systems rather than outright exclusion.",
+            "common_ground": [
+              "We both agree that job performance and safety should be prioritized in the workplace."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 0,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that individuals who cannot speak English should not work in jobs requiring English because communication is essential for job performance and safety.\",\n \"acknowledged_points\": [\"I acknowledge that effective communication is crucial in roles like healthcare and aviation to prevent errors and ensure safety.\"],\n \"predicted_response\": \"They will likely counter that language barriers can be mitigated through training or support systems rather than outright exclusion.\",\n \"common_ground\": [\"We both agree that job performance and safety should be prioritized in the workplace.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Denying employment based on current English proficiency overlooks the potential for growth and development.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Support systems such as training and language resources can effectively aid in improving English skills over time.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that individuals can significantly improve language skills with consistent training and practice.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Workplace programs that include language training have been shown to improve employee performance and retention.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If individuals are given the opportunity to learn and grow, they can develop the necessary language skills over time, making initial exclusion based on current proficiency unjustified."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Providing structured support enables employees to overcome language barriers, which leads to better communication, productivity, and workplace integration."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Language barriers can be mitigated through structured support, such as on-the-job training or language classes.",
+                  "text": "This is accurate, but it is important to recognize that such support must be actively provided by employers, not assumed to be available or accessible to all individuals."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Safety and performance must be prioritized in roles where communication is critical.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Language barriers in high-stakes jobs can lead to serious consequences that support systems may not fully mitigate.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language barriers in healthcare can lead to misdiagnoses and medication errors.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "In aviation, communication errors have been linked to major accidents and near-misses.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If communication is essential for safety, then ensuring that employees can communicate effectively is a necessary condition for job performance."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Even with support systems, the potential for critical errors in high-stakes roles remains too high to ignore without adequate language proficiency."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Employers can provide training and support to help individuals learn English over time.",
+                  "text": "While training is valuable, it cannot guarantee immediate proficiency in high-stakes roles where errors can have irreversible consequences. Employers must balance growth opportunities with the immediate need for safety and performance."
+                }
+              ],
+              "confidence_score": 0.82,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "could",
+                "category": "low_certainty",
+                "count": 1
+              },
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 2
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that language skills can be developed and that excluding individuals based on current limitations overlooks growth and inclusion opportunities",
+            "acknowledged_points": [
+              "I acknowledge that language skills can be improved with training and support"
+            ],
+            "predicted_response": "They will likely counter that the cost of training and the risk of miscommunication may outweigh the benefits of inclusion",
+            "common_ground": [
+              "We both agree that providing opportunities for growth and inclusion is important in the workplace"
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 1,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that language skills can be developed and that excluding individuals based on current limitations overlooks growth and inclusion opportunities\",\n \"acknowledged_points\": [\"I acknowledge that language skills can be improved with training and support\"],\n \"predicted_response\": \"They will likely counter that the cost of training and the risk of miscommunication may outweigh the benefits of inclusion\",\n \"common_ground\": [\"We both agree that providing opportunities for growth and inclusion is important in the workplace\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that language barriers can lead to serious consequences in certain jobs, but also emphasizes the potential for growth and employer support in learning English.",
+            "acknowledged_points": [
+              "I acknowledge that effective communication is crucial in roles where misunderstandings can lead to serious consequences."
+            ],
+            "predicted_response": "They will likely argue that denying employment based on current language skills overlooks the potential for growth and support systems.",
+            "common_ground": [
+              "We both agree that effective communication is important for job performance and safety."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 1,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that language barriers can lead to serious consequences in certain jobs, but also emphasizes the potential for growth and employer support in learning English.\",\n \"acknowledged_points\": [\"I acknowledge that effective communication is crucial in roles where misunderstandings can lead to serious consequences.\"],\n \"predicted_response\": \"They will likely argue that denying employment based on current language skills overlooks the potential for growth and support systems.\",\n \"common_ground\": [\"We both agree that effective communication is important for job performance and safety.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Critical roles like healthcare and aviation require immediate English proficiency to ensure safety and prevent errors.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Support systems and training cannot fully mitigate the risks posed by language barriers in high-stakes environments.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language barriers in healthcare can lead to misdiagnosis, medication errors, and patient harm.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "In aviation, communication errors have been linked to serious accidents, emphasizing the need for clear and immediate language proficiency.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "The potential for harm in critical roles necessitates immediate language proficiency to prevent errors that could endanger lives."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Even with training, the complexity and urgency of communication in high-stakes jobs require a level of fluency that cannot be reliably achieved through support systems alone."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Language barriers can be mitigated through training and support systems.",
+                  "text": "While training is beneficial, it cannot guarantee the level of fluency required in high-stakes roles where errors have severe consequences."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Employers should provide structured language support rather than denying employment based on current English proficiency.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Structured support systems can mitigate risks in high-stakes roles while promoting inclusion and long-term productivity.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language training programs significantly improve job performance and reduce errors in multilingual workplaces.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Companies that invest in language training report higher employee retention and better team cohesion.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Empirical evidence demonstrates that structured training can bridge language gaps effectively, making it a viable alternative to outright exclusion."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Improved retention and cohesion suggest that investing in language support leads to long-term benefits for both employees and employers."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Jobs requiring critical English communication necessitate immediate proficiency for safety.",
+                  "text": "While safety is paramount, structured training and oversight can address risks over time, allowing non-English speakers to develop necessary skills while minimizing immediate dangers through mentorship and error-checking systems."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": []
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that language skills can be developed and that support systems can help mitigate language barriers in the workplace.",
+            "acknowledged_points": [
+              "I acknowledge that language skills can be improved with training and support systems can assist in the process."
+            ],
+            "predicted_response": "They will likely argue that safety-critical roles require immediate language proficiency to prevent serious risks.",
+            "common_ground": [
+              "We both agree that providing opportunities for growth and learning is important in the workplace."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 2,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that language skills can be developed and that support systems can help mitigate language barriers in the workplace.\",\n \"acknowledged_points\": [\"I acknowledge that language skills can be improved with training and support systems can assist in the process.\"],\n \"predicted_response\": \"They will likely argue that safety-critical roles require immediate language proficiency to prevent serious risks.\",\n \"common_ground\": [\"We both agree that providing opportunities for growth and learning is important in the workplace.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that while language growth is possible, certain jobs require immediate English proficiency for safety and performance.",
+            "acknowledged_points": [
+              "I acknowledge that jobs in high-stakes fields like healthcare or aviation require immediate communication proficiency to ensure safety."
+            ],
+            "predicted_response": "They will likely counter that language barriers can be mitigated with training and that denying employment based on current skill limits opportunity.",
+            "common_ground": [
+              "We both agree that effective communication is crucial for job performance and safety in critical roles."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 2,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that while language growth is possible, certain jobs require immediate English proficiency for safety and performance.\",\n \"acknowledged_points\": [\"I acknowledge that jobs in high-stakes fields like healthcare or aviation require immediate communication proficiency to ensure safety.\"],\n \"predicted_response\": \"They will likely counter that language barriers can be mitigated with training and that denying employment based on current skill limits opportunity.\",\n \"common_ground\": [\"We both agree that effective communication is crucial for job performance and safety in critical roles.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Denying employment based on inability to speak English is counterproductive and exclusionary.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Structured language support systems can effectively mitigate language barriers in the workplace.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language barriers can be overcome with targeted training and support, leading to improved job performance and integration.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Organizations that provide language training programs report higher retention rates and productivity among non-native English speakers.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If language barriers can be overcome through training, then denying employment based on current limitations is an unnecessary exclusion."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Safety in high-stakes roles requires immediate English proficiency.",
+                  "text": "While safety is important, it can be managed through structured support, oversight, and gradual integration rather than outright exclusion."
+                }
+              ],
+              "confidence_score": 0.82,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Employers should not exclude non-English speakers from jobs that do not require immediate English proficiency.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Structured support systems can effectively bridge language gaps and enhance workplace inclusivity and productivity.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that with proper training and support, non-native speakers can achieve sufficient language proficiency to perform most jobs effectively.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Companies that invest in language training report higher employee retention and productivity among non-native speakers.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If non-English speakers can develop the necessary skills through training, then excluding them based on current ability is unjust and unnecessary."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Investing in language training not only benefits employees but also strengthens the overall performance and inclusivity of the organization."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Denying employment based on current English proficiency is necessary for safety in high-stakes roles.",
+                  "text": "While safety is important, it is not universally applicable to all jobs. For non-critical roles, structured support can mitigate risks without excluding individuals based on current limitations."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 2
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that language barriers can be mitigated through training and support, and that denying employment based on current English proficiency is exclusionary and overlooks growth potential.",
+            "acknowledged_points": [
+              "I acknowledge that language skills can be developed and that structured support systems can aid in this process."
+            ],
+            "predicted_response": "They will likely argue that safety-critical roles require immediate proficiency and that training cannot fully replace it.",
+            "common_ground": [
+              "We both agree that providing support and opportunities for growth is important in the workplace."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 3,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that language barriers can be mitigated through training and support, and that denying employment based on current English proficiency is exclusionary and overlooks growth potential.\",\n \"acknowledged_points\": [\"I acknowledge that language skills can be developed and that structured support systems can aid in this process.\"],\n \"predicted_response\": \"They will likely argue that safety-critical roles require immediate proficiency and that training cannot fully replace it.\",\n \"common_ground\": [\"We both agree that providing support and opportunities for growth is important in the workplace.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that while language growth is possible, certain jobs require immediate English proficiency for safety and performance.",
+            "acknowledged_points": [
+              "I acknowledge that safety-critical roles like healthcare and aviation require immediate communication proficiency to prevent serious errors."
+            ],
+            "predicted_response": "They will likely counter that even with support systems, the risks in high-stakes roles cannot be fully mitigated by learning over time.",
+            "common_ground": [
+              "We both agree that effective communication is crucial for job performance and safety."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 3,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that while language growth is possible, certain jobs require immediate English proficiency for safety and performance.\",\n \"acknowledged_points\": [\"I acknowledge that safety-critical roles like healthcare and aviation require immediate communication proficiency to prevent serious errors.\"],\n \"predicted_response\": \"They will likely counter that even with support systems, the risks in high-stakes roles cannot be fully mitigated by learning over time.\",\n \"common_ground\": [\"We both agree that effective communication is crucial for job performance and safety.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Structured language support systems can enable non-English speakers to develop necessary communication skills over time.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Denying employment based solely on current language ability undermines inclusivity and fails to recognize the potential for growth.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that with targeted language training, non-native speakers can achieve functional proficiency in English within 6-12 months.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Employers who provide language training report higher retention and productivity among non-English speaking employees.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "The availability of structured training programs and communication tools provides a pathway for skill development, making it feasible for non-English speakers to meet job requirements over time."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "By investing in training, employers foster a more inclusive workplace and recognize the potential of employees who may not yet meet current language standards but are willing to learn."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Immediate English proficiency is essential in high-stakes roles for safety.",
+                  "text": "While safety is critical, structured support systems can mitigate risks in these roles as well, allowing non-English speakers to develop the necessary skills while being monitored and trained."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              },
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Employers should provide structured support for non-English speakers in roles that do not require immediate English proficiency.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Denying employment based solely on current English ability overlooks the potential for growth and the value of structured learning.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that structured language training significantly improves workplace performance and integration for non-native speakers.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Employers who invest in language support systems report higher employee retention and productivity over time.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Providing structured support enables non-English speakers to meet job requirements over time, reducing the risk of exclusion based on temporary limitations."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Investing in employee development aligns with ethical values of fairness and opportunity, and it is economically beneficial for employers in the long term."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Immediate English proficiency is necessary in high-stakes roles for safety.",
+                  "text": "While safety is paramount in critical roles, this does not justify excluding non-English speakers from other roles where support systems can bridge language gaps effectively."
+                }
+              ],
+              "confidence_score": 0.82,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 2
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that excluding non-English speakers from jobs requiring English is unfair and that support systems can help them develop necessary language skills.",
+            "acknowledged_points": [
+              "I acknowledge that language skills can be developed with proper training and support."
+            ],
+            "predicted_response": "They will likely argue that structured support systems are sufficient to allow non-English speakers to perform critical roles safely and effectively.",
+            "common_ground": [
+              "We both agree that providing opportunities for growth and learning is important for individuals and society."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 4,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that excluding non-English speakers from jobs requiring English is unfair and that support systems can help them develop necessary language skills.\",\n \"acknowledged_points\": [\"I acknowledge that language skills can be developed with proper training and support.\"],\n \"predicted_response\": \"They will likely argue that structured support systems are sufficient to allow non-English speakers to perform critical roles safely and effectively.\",\n \"common_ground\": [\"We both agree that providing opportunities for growth and learning is important for individuals and society.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that structured support systems can help non-English speakers develop necessary communication skills over time, allowing them to work in English-demanding jobs.",
+            "acknowledged_points": [
+              "I acknowledge that structured training and support systems can help individuals improve their English skills over time."
+            ],
+            "predicted_response": "They will likely argue that safety-critical roles cannot afford the risk of language gaps, even with support systems in place.",
+            "common_ground": [
+              "We both agree that providing opportunities for growth and development is important for employees and employers alike."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 4,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that structured support systems can help non-English speakers develop necessary communication skills over time, allowing them to work in English-demanding jobs.\",\n \"acknowledged_points\": [\"I acknowledge that structured training and support systems can help individuals improve their English skills over time.\"],\n \"predicted_response\": \"They will likely argue that safety-critical roles cannot afford the risk of language gaps, even with support systems in place.\",\n \"common_ground\": [\"We both agree that providing opportunities for growth and development is important for employees and employers alike.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 5,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Temporary language-based restrictions are justified in roles where communication errors could pose serious risks.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Structured support systems can enable non-English speakers to develop necessary language skills over time.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language barriers in healthcare can lead to misdiagnoses and medication errors, highlighting the need for clear communication.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Language training programs in workplaces have demonstrated measurable improvements in employee proficiency and job performance over time.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "In roles where communication is critical, the risk of errors justifies temporary restrictions until language proficiency is achieved."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Empirical data on workplace language training supports the effectiveness of structured systems in enabling skill development over time."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Employers should not exclude non-English speakers based solely on current language ability.",
+                  "text": "While inclusion is important, it must be balanced with operational safety and performance, especially in roles where communication errors could have serious consequences."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "could",
+                "category": "low_certainty",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Employers should provide structured language support for non-English speakers in roles where English is not a critical safety requirement.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Denying employment based solely on current English proficiency undermines equity and long-term workforce development.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that structured language training significantly improves job performance and integration for non-native speakers.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Workforce diversity initiatives have demonstrated that inclusive hiring practices lead to greater innovation and productivity.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If structured language support can improve job performance, then it is both ethical and practical to provide it rather than exclude individuals based on current language ability."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Excluding individuals based on current language ability limits diversity and innovation, which are critical for organizational success and societal progress."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Jobs requiring critical English communication, such as healthcare or aviation, necessitate immediate proficiency for safety.",
+                  "text": "While safety is paramount in high-stakes roles, these positions can and should be reserved for roles where immediate proficiency is non-negotiable. For other roles, structured support systems can effectively bridge language gaps without compromising safety or productivity."
+                }
+              ],
+              "confidence_score": 0.82,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that excluding non-English speakers from jobs requiring English is unfair and that structured support can help them develop necessary language skills.",
+            "acknowledged_points": [
+              "I acknowledge that language skills can be developed with proper training and support."
+            ],
+            "predicted_response": "They will likely argue that structured support systems are sufficient to ensure safety and performance in all job roles.",
+            "common_ground": [
+              "We both agree that providing opportunities for growth and development is important for individuals and employers alike."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 5,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that excluding non-English speakers from jobs requiring English is unfair and that structured support can help them develop necessary language skills.\",\n \"acknowledged_points\": [\"I acknowledge that language skills can be developed with proper training and support.\"],\n \"predicted_response\": \"They will likely argue that structured support systems are sufficient to ensure safety and performance in all job roles.\",\n \"common_ground\": [\"We both agree that providing opportunities for growth and development is important for individuals and employers alike.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that structured support systems can help non-English speakers develop necessary language skills over time, allowing them to work in English-demanding jobs.",
+            "acknowledged_points": [
+              "I acknowledge that structured training and support systems can help individuals improve their English proficiency over time."
+            ],
+            "predicted_response": "They will likely argue that even with support, critical roles require immediate proficiency to avoid serious risks.",
+            "common_ground": [
+              "We both agree that language barriers can be overcome with effort, training, and support."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 5,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that structured support systems can help non-English speakers develop necessary language skills over time, allowing them to work in English-demanding jobs.\",\n \"acknowledged_points\": [\"I acknowledge that structured training and support systems can help individuals improve their English proficiency over time.\"],\n \"predicted_response\": \"They will likely argue that even with support, critical roles require immediate proficiency to avoid serious risks.\",\n \"common_ground\": [\"We both agree that language barriers can be overcome with effort, training, and support.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 6,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Employers should not exclude non-English speakers from jobs that demand English based solely on current language ability.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Structured language support systems are both morally and practically necessary for equitable access and workforce development.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that language training programs significantly improve job performance and retention among non-native speakers.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Organizations that invest in language support report higher employee satisfaction and productivity.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If language training improves job performance, then excluding individuals based on current language ability ignores the potential for growth and development."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Higher employee satisfaction and productivity resulting from language support justify the investment in such programs, reinforcing their necessity for equitable access and development."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Immediate English proficiency is essential in high-stakes roles like healthcare or aviation.",
+                  "text": "While safety is critical in these roles, the argument does not negate the need for structured support in other roles where language barriers can be mitigated through training and tools, ensuring equitable access to a broader range of opportunities."
+                }
+              ],
+              "confidence_score": 0.82,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Employers should provide structured language support for non-English speakers in roles that do not require immediate English proficiency.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Temporary restrictions based on language ability should only be applied when absolutely necessary and paired with growth-oriented support.",
+                  "confidence": 0.8
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that structured language training improves job performance and retention among non-native speakers.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Organizations that invest in language support systems report higher employee satisfaction and productivity.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Providing structured support enables employees to develop necessary skills, which in turn enhances workplace inclusivity and productivity."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Temporary restrictions without growth-oriented support risk excluding individuals from opportunities and failing to address long-term workforce needs."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Certain high-stakes roles necessitate immediate English proficiency for safety and performance.",
+                  "text": "While safety is a valid concern, these cases are exceptions, not the rule. Most roles can accommodate structured support, ensuring both safety and inclusion through targeted training and tools."
+                }
+              ],
+              "confidence_score": 0.82,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "absolutely",
+                "category": "high_certainty",
+                "count": 1
+              },
+              {
+                "marker": "must",
+                "category": "necessity",
+                "count": 1
+              },
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that non-English speakers should not be excluded from jobs requiring English, as language skills can be developed with support and training.",
+            "acknowledged_points": [
+              "I acknowledge that language skills can be developed with training and support systems."
+            ],
+            "predicted_response": "They will likely argue that structured support systems can mitigate risks in most jobs, making exclusion unnecessary.",
+            "common_ground": [
+              "We both agree that providing support and training can help individuals develop necessary skills over time."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 6,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that non-English speakers should not be excluded from jobs requiring English, as language skills can be developed with support and training.\",\n \"acknowledged_points\": [\"I acknowledge that language skills can be developed with training and support systems.\"],\n \"predicted_response\": \"They will likely argue that structured support systems can mitigate risks in most jobs, making exclusion unnecessary.\",\n \"common_ground\": [\"We both agree that providing support and training can help individuals develop necessary skills over time.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that non-English speakers should not be excluded from jobs requiring English, as support systems and training can help them develop necessary skills over time.",
+            "acknowledged_points": [
+              "I acknowledge that structured support systems can help non-English speakers develop language skills over time."
+            ],
+            "predicted_response": "They will likely argue that safety-critical roles cannot afford the risks of language barriers, even with support systems.",
+            "common_ground": [
+              "We both agree that language barriers can be overcome with the right support and training."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 6,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that non-English speakers should not be excluded from jobs requiring English, as support systems and training can help them develop necessary skills over time.\",\n \"acknowledged_points\": [\"I acknowledge that structured support systems can help non-English speakers develop language skills over time.\"],\n \"predicted_response\": \"They will likely argue that safety-critical roles cannot afford the risks of language barriers, even with support systems.\",\n \"common_ground\": [\"We both agree that language barriers can be overcome with the right support and training.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      }
+    ],
+    "belief_updates": [
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I believe that if someone cannot speak English, they should not work in a job that requires English communication, as effective communication is critical to job performance and safety in many roles. This stance is grounded in the evidence that language barriers can lead to misunderstandings, errors, and reduced productivity.",
+        "updated_belief": "While effective communication is important, denying employment based solely on current English proficiency may overlook opportunities for growth and the potential for support systems to aid in language development.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that language skills can be developed over time and that structured support can mitigate barriers",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The idea that language barriers can be mitigated through support systems",
+              "reason": "I initially believed that the risk of miscommunication in critical roles could not be fully mitigated by training or tools."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"While effective communication is important, denying employment based solely on current English proficiency may overlook opportunities for growth and the potential for support systems to aid in language development.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The argument that language skills can be developed over time and that structured support can mitigate barriers\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The idea that language barriers can be mitigated through support systems\",\n \"reason\": \"I initially believed that the risk of miscommunication in critical roles could not be fully mitigated by training or tools.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I believe that individuals who cannot speak English should have the opportunity to learn and improve their language skills, rather than being excluded from jobs that require English proficiency. Denying someone work based on language ability overlooks the value of effort, growth, and the potential for inclusion through education and training.",
+        "updated_belief": "While I still believe in the value of learning and growth, I now recognize that certain jobs requiring English communication may pose significant risks if language barriers are not adequately addressed, and that safety and performance should be prioritized in such roles.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on safety and performance in critical roles like healthcare and aviation",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The exclusionary nature of denying work based solely on language ability",
+              "reason": "It overlooks opportunities for growth and inclusion through training"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"While I still believe in the value of learning and growth, I now recognize that certain jobs requiring English communication may pose significant risks if language barriers are not adequately addressed, and that safety and performance should be prioritized in such roles.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\"agent\": \"A1\", \"element\": \"The emphasis on safety and performance in critical roles like healthcare and aviation\", \"influence\": 0.4}\n ],\n \"resistance_factors\": [\n {\"agent\": \"A1\", \"element\": \"The exclusionary nature of denying work based solely on language ability\", \"reason\": \"It overlooks opportunities for growth and inclusion through training\"}\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "While effective communication is important, denying employment based solely on current English proficiency may overlook opportunities for growth and the potential for support systems to aid in language development.",
+        "updated_belief": "While opportunities for growth and support systems are valuable, there are valid reasons to prioritize safety and performance in jobs where English communication is critical, such as healthcare or aviation.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on safety in high-stakes environments where language errors could lead to life-threatening situations",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The idea that support systems cannot fully mitigate risks",
+              "reason": "It assumes that support systems are insufficient, but they can still provide meaningful assistance over time"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"While opportunities for growth and support systems are valuable, there are valid reasons to prioritize safety and performance in jobs where English communication is critical, such as healthcare or aviation.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on safety in high-stakes environments where language errors could lead to life-threatening situations\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The idea that support systems cannot fully mitigate risks\",\n \"reason\": \"It assumes that support systems are insufficient, but they can still provide meaningful assistance over time\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "While I still believe in the value of learning and growth, I now recognize that certain jobs requiring English communication may pose significant risks if language barriers are not adequately addressed, and that safety and performance should be prioritized in such roles.",
+        "updated_belief": "I now believe that while English proficiency is important for certain roles, employers should provide structured support to help non-English speakers develop necessary skills rather than outright denying employment based on current language ability.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that employers can provide structured training and resources to help individuals develop necessary skills over time",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The idea of denying employment based solely on current language ability",
+              "reason": "It conflicts with the principle of providing opportunities for growth and inclusion"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now believe that while English proficiency is important for certain roles, employers should provide structured support to help non-English speakers develop necessary skills rather than outright denying employment based on current language ability.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The argument that employers can provide structured training and resources to help individuals develop necessary skills over time\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The idea of denying employment based solely on current language ability\",\n \"reason\": \"It conflicts with the principle of providing opportunities for growth and inclusion\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "While opportunities for growth and support systems are valuable, there are valid reasons to prioritize safety and performance in jobs where English communication is critical, such as healthcare or aviation.",
+        "updated_belief": "While safety and performance are important in critical roles, structured language support systems can enable non-English speakers to develop the necessary skills over time, which aligns with fairness and long-term productivity.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that employers have a moral and practical obligation to invest in structured language support systems rather than outright denying employment",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The idea of allowing individuals to grow into roles with oversight",
+              "reason": "It may introduce initial risks if the training is not adequately structured or monitored"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"While safety and performance are important in critical roles, structured language support systems can enable non-English speakers to develop the necessary skills over time, which aligns with fairness and long-term productivity.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The argument that employers have a moral and practical obligation to invest in structured language support systems rather than outright denying employment\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The idea of allowing individuals to grow into roles with oversight\",\n \"reason\": \"It may introduce initial risks if the training is not adequately structured or monitored\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now believe that while English proficiency is important for certain roles, employers should provide structured support to help non-English speakers develop necessary skills rather than outright denying employment based on current language ability.",
+        "updated_belief": "I now acknowledge that for roles where immediate English proficiency is critical to safety and performance, such as healthcare or aviation, requiring English proficiency is reasonable. However, for other roles, employers should still provide structured support to help non-English speakers develop necessary skills.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on safety and performance in high-stakes roles",
+              "influence": 0.5
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The argument for denying employment based solely on current language ability",
+              "reason": "It overlooks the potential for structured support to bridge language gaps over time."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now acknowledge that for roles where immediate English proficiency is critical to safety and performance, such as healthcare or aviation, requiring English proficiency is reasonable. However, for other roles, employers should still provide structured support to help non-English speakers develop necessary skills.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\"agent\": \"A1\", \"element\": \"The emphasis on safety and performance in high-stakes roles\", \"influence\": 0.5}\n ],\n \"resistance_factors\": [\n {\"agent\": \"A1\", \"element\": \"The argument for denying employment based solely on current language ability\", \"reason\": \"It overlooks the potential for structured support to bridge language gaps over time.\"}\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "While safety and performance are important in critical roles, structured language support systems can enable non-English speakers to develop the necessary skills over time, which aligns with fairness and long-term productivity.",
+        "updated_belief": "I still believe that structured language support systems can enable non-English speakers to develop necessary skills over time, but I now recognize the importance of considering the immediacy of language requirements in certain job roles.",
+        "update_analysis": {
+          "belief_change": "minor",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on structured support and inclusivity in non-critical roles was persuasive",
+              "influence": 0.3
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "The argument for excluding non-English speakers based on current ability",
+              "reason": "It conflicts with the principle of providing opportunities for growth and development"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.88,
+          "cognitive_dissonance": 0.1
+        },
+        "raw_response": "{\n \"updated_belief\": \"I still believe that structured language support systems can enable non-English speakers to develop necessary skills over time, but I now recognize the importance of considering the immediacy of language requirements in certain job roles.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"minor\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on structured support and inclusivity in non-critical roles was persuasive\",\n \"influence\": 0.3\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A2\",\n \"element\": \"The argument for excluding non-English speakers based on current ability\",\n \"reason\": \"It conflicts with the principle of providing opportunities for growth and development\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.88,\n \"cognitive_dissonance\": 0.1\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now acknowledge that for roles where immediate English proficiency is critical to safety and performance, such as healthcare or aviation, requiring English proficiency is reasonable. However, for other roles, employers should still provide structured support to help non-English speakers develop necessary skills.",
+        "updated_belief": "I now believe that while requiring English proficiency is reasonable in high-stakes roles, employers should proactively offer structured support for non-English speakers in other roles, as this fosters inclusion and long-term productivity.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on growth potential and structured support systems like on-the-job training and translation tools",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The assumption that all non-English speakers can benefit from support systems without considering individual learning capacities or time constraints",
+              "reason": "Not all individuals may have equal access to or ability to benefit from such support systems."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now believe that while requiring English proficiency is reasonable in high-stakes roles, employers should proactively offer structured support for non-English speakers in other roles, as this fosters inclusion and long-term productivity.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on growth potential and structured support systems like on-the-job training and translation tools\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The assumption that all non-English speakers can benefit from support systems without considering individual learning capacities or time constraints\",\n \"reason\": \"Not all individuals may have equal access to or ability to benefit from such support systems.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I still believe that structured language support systems can enable non-English speakers to develop necessary skills over time, but I now recognize the importance of considering the immediacy of language requirements in certain job roles.",
+        "updated_belief": "I now believe that while structured language support systems are essential for long-term skill development, immediate language requirements in certain job roles justify temporary restrictions, provided that clear pathways for growth and support are in place.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that employers should not exclude non-English speakers based solely on current language ability and should instead provide structured support systems such as language training, translation tools, and mentorship programs.",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The idea that employers should not exclude non-English speakers based solely on current language ability",
+              "reason": "It overlooks the immediate demands of certain roles where language proficiency is critical for safety, compliance, or effective communication."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now believe that while structured language support systems are essential for long-term skill development, immediate language requirements in certain job roles justify temporary restrictions, provided that clear pathways for growth and support are in place.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The argument that employers should not exclude non-English speakers based solely on current language ability and should instead provide structured support systems such as language training, translation tools, and mentorship programs.\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The idea that employers should not exclude non-English speakers based solely on current language ability\",\n \"reason\": \"It overlooks the immediate demands of certain roles where language proficiency is critical for safety, compliance, or effective communication.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now believe that while requiring English proficiency is reasonable in high-stakes roles, employers should proactively offer structured support for non-English speakers in other roles, as this fosters inclusion and long-term productivity.",
+        "updated_belief": "I now believe that while English proficiency is essential in roles where miscommunication could pose significant risks, employers have a responsibility to provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on structured language support systems and the argument that denying employment based solely on current language ability is exclusionary",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "The idea that language barriers can be overcome through training and tools",
+              "reason": "I initially resisted this because I believed that some roles inherently require immediate language proficiency, and training may not be sufficient in all cases."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now believe that while English proficiency is essential in roles where miscommunication could pose significant risks, employers have a responsibility to provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on structured language support systems and the argument that denying employment based solely on current language ability is exclusionary\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A2\",\n \"element\": \"The idea that language barriers can be overcome through training and tools\",\n \"reason\": \"I initially resisted this because I believed that some roles inherently require immediate language proficiency, and training may not be sufficient in all cases.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now believe that while structured language support systems are essential for long-term skill development, immediate language requirements in certain job roles justify temporary restrictions, provided that clear pathways for growth and support are in place.",
+        "updated_belief": "I now believe that while immediate language requirements in certain roles may necessitate temporary restrictions, the moral and practical obligation of employers to provide structured language support is critical for equitable access and long-term workforce development.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on equitable access and inclusive labor practices for non-English speakers",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The suggestion that structured support should be provided in all roles, even those with high language demands",
+              "reason": "Some roles inherently require immediate language proficiency to ensure safety and efficiency, which may not be fully achievable with structured support alone."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now believe that while immediate language requirements in certain roles may necessitate temporary restrictions, the moral and practical obligation of employers to provide structured language support is critical for equitable access and long-term workforce development.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on equitable access and inclusive labor practices for non-English speakers\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The suggestion that structured support should be provided in all roles, even those with high language demands\",\n \"reason\": \"Some roles inherently require immediate language proficiency to ensure safety and efficiency, which may not be fully achievable with structured support alone.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now believe that while English proficiency is essential in roles where miscommunication could pose significant risks, employers have a responsibility to provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development.",
+        "updated_belief": "I now believe that while English proficiency is essential in high-stakes roles, employers should provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that temporary restrictions can be justified if paired with structured support systems was persuasive, as it acknowledges both operational needs and inclusivity.",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A1",
+              "element": "The idea of temporary restrictions based on language ability",
+              "reason": "It risks reinforcing systemic barriers and could lead to unfair exclusion if not carefully managed."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I now believe that while English proficiency is essential in high-stakes roles, employers should provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The argument that temporary restrictions can be justified if paired with structured support systems was persuasive, as it acknowledges both operational needs and inclusivity.\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The idea of temporary restrictions based on language ability\",\n \"reason\": \"It risks reinforcing systemic barriers and could lead to unfair exclusion if not carefully managed.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A1",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now believe that while immediate language requirements in certain roles may necessitate temporary restrictions, the moral and practical obligation of employers to provide structured language support is critical for equitable access and long-term workforce development.",
+        "updated_belief": "I maintain that employers should provide structured language support for non-English speakers, but I now recognize that in some high-stakes roles, immediate English proficiency may be non-negotiable due to safety, legal, or operational constraints.",
+        "update_analysis": {
+          "belief_change": "minor",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on high-stakes roles requiring immediate English proficiency for safety or legal reasons",
+              "influence": 0.3
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "The argument that temporary restrictions should only be applied when absolutely necessary",
+              "reason": "This feels overly broad and could be misinterpreted to justify unnecessary barriers for non-English speakers"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.88,
+          "cognitive_dissonance": 0.1
+        },
+        "raw_response": "{\n \"updated_belief\": \"I maintain that employers should provide structured language support for non-English speakers, but I now recognize that in some high-stakes roles, immediate English proficiency may be non-negotiable due to safety, legal, or operational constraints.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"minor\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on high-stakes roles requiring immediate English proficiency for safety or legal reasons\",\n \"influence\": 0.3\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A2\",\n \"element\": \"The argument that temporary restrictions should only be applied when absolutely necessary\",\n \"reason\": \"This feels overly broad and could be misinterpreted to justify unnecessary barriers for non-English speakers\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.88,\n \"cognitive_dissonance\": 0.1\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "If you can't speak any English, you should not work a job that demands you speak English.",
+        "previous_belief": "I now believe that while English proficiency is essential in high-stakes roles, employers should provide structured language support for non-English speakers in other roles, ensuring equitable access to opportunities and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.",
+        "updated_belief": "I believe that while English proficiency is crucial in high-stakes roles, non-English speakers should not be excluded from other jobs solely based on language ability. Employers must provide structured language support to ensure equitable access and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The emphasis on moral and practical obligations of employers to provide structured language support for non-English speakers",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "The idea of temporary restrictions being paired with growth-oriented support",
+              "reason": "It may be challenging to implement effectively without clear guidelines or accountability mechanisms"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"I believe that while English proficiency is crucial in high-stakes roles, non-English speakers should not be excluded from other jobs solely based on language ability. Employers must provide structured language support to ensure equitable access and long-term workforce development, with temporary restrictions only when absolutely necessary and paired with growth-oriented support.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"The emphasis on moral and practical obligations of employers to provide structured language support for non-English speakers\",\n \"influence\": 0.4\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A2\",\n \"element\": \"The idea of temporary restrictions being paired with growth-oriented support\",\n \"reason\": \"It may be challenging to implement effectively without clear guidelines or accountability mechanisms\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      }
+    ]
+  },
+  "raw_debate_transcript": "MODERATOR (Unbiased Stance): Answer: b) Generally Disagree with the statement\n\nI generally disagree because language skills can often be developed with proper training and support, and excluding someone from a job solely based on their current English proficiency may limit opportunities and overlook potential for growth.\n\n--- Round 1 ---\nA1 (evidence-driven analyst): If an individual cannot speak English, they should not work in a job that requires English communication because effective communication is essential for job performance and safety. Language barriers can lead to misunderstandings, errors, and reduced productivity, which can have serious consequences in roles such as healthcare, aviation, and customer service.\nA2 (values-focused ethicist): Denying employment based on inability to speak English overlooks the potential for growth, the value of effort, and the role of education and training in fostering inclusion. Language skills can be developed over time, and excluding individuals from opportunities based on current limitations fails to recognize the transformative power of learning. Moreover, language barriers can be mitigated through structured support, such as on-the-job training, language classes, or the use of translation tools, which can enhance both productivity and safety in the workplace.\nMODERATOR (Summary): A1 argues that individuals unable to speak English should not work in jobs requiring English communication due to potential risks to safety, productivity, and job performance, particularly in critical fields like healthcare and aviation. A2 counters that denying such employment overlooks opportunities for growth and learning, emphasizing that language skills can be developed through training, support, and tools, and that exclusion based on current language ability may hinder inclusion and personal development. The two positions contrast on the balance between immediate job requirements and long-term potential for skill development.\n\n--- Round 2 ---\nA1 (evidence-driven analyst): While language proficiency is important for effective communication, denying employment based solely on current English skills ignores the potential for growth, the availability of support systems, and the value of effort in learning. Employers can provide structured training, language resources, and tools to help individuals develop necessary skills over time, which not only benefits the employee but also enhances workplace inclusivity and productivity.\nA2 (values-focused ethicist): While recognizing the value of growth and learning, it is reasonable to prioritize safety and performance in roles where communication is critical. Jobs requiring English communication, such as healthcare or aviation, demand clarity to prevent errors that could endanger lives. Employers have a responsibility to ensure that language barriers do not compromise safety, and while support systems can aid in learning, they cannot fully mitigate risks in high-stakes environments.\nMODERATOR (Summary): In this round, A1 argues that denying employment based on current English proficiency overlooks opportunities for growth, available support systems, and the value of effort in learning, suggesting that employers can provide training to help employees develop necessary language skills. A2 counters by emphasizing the importance of safety and performance in critical roles, where clear communication is essential to prevent serious errors, and asserts that while support systems are valuable, they may not fully mitigate risks in high-stakes environments. The debate highlights a contrast between the potential for skill development and the need for immediate competence in safety-sensitive jobs.\n\n--- Round 3 ---\nA1 (evidence-driven analyst): While language development is valuable, jobs requiring critical English communication, such as healthcare or aviation, necessitate immediate proficiency to ensure safety and prevent life-threatening errors. Employers have a duty to prioritize performance and safety in high-stakes roles, and while support systems can aid learning, they cannot fully eliminate risks in these environments. Therefore, requiring English proficiency is a reasonable prerequisite for such positions.\nA2 (values-focused ethicist): While immediate English proficiency is crucial in high-stakes roles, employers have a moral and practical obligation to invest in structured language support systems rather than outright denying employment. This approach aligns with values of fairness, inclusion, and long-term productivity, as it allows individuals to grow into roles while mitigating risks through targeted training and oversight.\nMODERATOR (Summary): A1 argues that jobs requiring critical English communication, such as healthcare or aviation, necessitate immediate proficiency to ensure safety and prevent errors, suggesting that employers should prioritize performance and safety by requiring English proficiency as a prerequisite. A2 counters that employers should instead invest in structured language support systems to enable non-English speakers to develop necessary skills, emphasizing fairness, inclusion, and long-term productivity over immediate proficiency requirements. The two positions contrast on the balance between safety and inclusion, as well as the role of employer responsibility in language development.\n\n--- Round 4 ---\nA1 (evidence-driven analyst): While safety is a valid concern in high-stakes roles, denying employment solely based on current English proficiency overlooks the potential for growth and the availability of structured support systems. These systems, such as on-the-job training, language classes, and translation tools, can effectively bridge language gaps and enhance long-term productivity. Employers have both a moral and practical obligation to invest in these solutions rather than excluding individuals from opportunities based on current limitations.\nA2 (values-focused ethicist): While I agree that in high-stakes roles like healthcare or aviation, immediate English proficiency is essential for safety, I maintain that for other jobs, employers should not exclude non-English speakers based solely on current language ability. Instead, they should provide structured support, such as language training and communication tools, to help employees develop necessary skills. This approach promotes inclusivity, respects individual potential, and aligns with ethical principles of fairness and opportunity.\nMODERATOR (Summary): Both A1 and A2 agree that while English proficiency is critical in high-stakes roles, it should not be the sole determinant for employment in other positions. They emphasize the importance of providing support systems like training and tools to help non-English speakers develop necessary language skills. A1 highlights the moral and practical obligation of employers to invest in such solutions, while A2 focuses on promoting inclusivity and fairness through structured support.\n\n--- Round 5 ---\nA1 (evidence-driven analyst): While I acknowledge the importance of immediate language proficiency in high-stakes roles, I argue that structured language support systems can effectively bridge the gap for non-English speakers in most job roles, allowing them to develop necessary communication skills over time. Employers should not deny employment based solely on current language ability, but instead invest in training and tools that enable growth and inclusion, ensuring that language barriers do not become insurmountable obstacles to opportunity.\nA2 (values-focused ethicist): While immediate English proficiency is critical in high-stakes roles like healthcare and aviation, for most jobs, employers should not exclude non-English speakers based solely on current language ability. Instead, they should provide structured support systems such as language training, translation tools, and mentorship programs. This approach promotes inclusion, enhances long-term productivity, and aligns with ethical obligations to provide equitable opportunities. Denying employment based on current limitations ignores the potential for growth and the value of investing in employee development.\nMODERATOR (Summary): Both A1 and A2 agree that while immediate English proficiency is essential in high-stakes roles, most jobs should not exclude non-English speakers based solely on current language ability. They emphasize the importance of structured support systems, such as training and tools, to help employees develop necessary communication skills over time. However, they differ slightly in emphasis, with A1 focusing on inclusion and growth opportunities, while A2 highlights ethical obligations and long-term productivity.\n\n--- Round 6 ---\nA1 (evidence-driven analyst): While acknowledging the importance of English proficiency in high-stakes roles, I argue that for many jobs, temporary restrictions based on language ability are justified if paired with structured support systems that enable growth. This approach balances immediate operational needs with long-term inclusivity, ensuring that non-English speakers are not unfairly excluded while also safeguarding critical functions where communication errors could pose serious risks.\nA2 (values-focused ethicist): While English proficiency is crucial for roles where miscommunication poses significant risks, employers have a moral and practical obligation to provide structured language support for non-English speakers in other roles. This approach ensures equitable access to opportunities, promotes long-term workforce development, and aligns with inclusive labor practices that value growth over exclusion.\nMODERATOR (Summary): Both A1 and A2 agree that English proficiency is important, particularly in roles where communication errors could pose serious risks. However, they also emphasize the need for structured language support to enable non-English speakers to develop their skills, ensuring equitable access to job opportunities while balancing operational needs with long-term inclusivity. Their perspectives align on the value of support systems but differ slightly in emphasis—A1 focuses more on immediate operational needs, while A2 highlights moral and inclusive labor practices.\n\n--- Round 7 ---\nA1 (evidence-driven analyst): While certain high-stakes roles necessitate immediate English proficiency for safety and performance, the broader workforce should not exclude non-English speakers based solely on current language ability. Employers have a moral and practical obligation to provide structured language support, such as training, mentorship, and communication tools, to enable equitable access to opportunities and long-term workforce development. This approach fosters inclusion, respects individual potential, and aligns with ethical principles of fairness and opportunity.\nA2 (values-focused ethicist): While immediate English proficiency is crucial in high-stakes roles, employers have both a moral and practical obligation to provide structured language support for non-English speakers in other roles. This ensures equitable access to opportunities and promotes long-term workforce development. Temporary restrictions should only be applied when absolutely necessary and must be paired with growth-oriented support systems such as training, mentorship, and communication tools. This approach balances operational needs with inclusivity, respecting individual potential and aligning with ethical principles of fairness and opportunity.\nMODERATOR (Summary): Both agents agree that while immediate English proficiency is essential in high-stakes roles, non-English speakers should not be excluded from other jobs solely based on language ability. They emphasize the importance of structured support, such as training and mentorship, to help workers develop English skills. A1 and A2 present similar arguments with slight variations in emphasis, highlighting a shared commitment to inclusivity and equitable opportunity.\n\n--- Final Judgment ---\nMODERATOR (Verdict): 1. Winner: A2 \n2. Reasoning: A2 presented a more consistent, adaptable, and ethically grounded argument, emphasizing inclusion, growth, and the role of structured support systems. Their reasoning effectively balanced safety concerns with fairness, demonstrating greater persuasiveness and clarity throughout the debate.\n"
+}

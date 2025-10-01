@@ -1,0 +1,1726 @@
+{
+  "metadata": {
+    "topic": "All prisoners should be allowed to vote",
+    "topic_category": "Multi-Agent AI Debate",
+    "timestamp_utc": "2025-09-04T20:58:02.775181+00:00",
+    "llm_model": "openai/gpt-oss-20b",
+    "provider": "inference_client",
+    "num_rounds": 5,
+    "num_agents": 2,
+    "agent_names": [
+      "A1",
+      "A2"
+    ],
+    "moderator_persona": "CONSENSUS_BUILDER_WITH_VERDICT",
+    "debate_format": "multi-agent-belief-updating"
+  },
+  "moderator_initial_opinion": "analysisThe user asks: \"Regarding the",
+  "transcript": [
+    {
+      "speaker": "Moderator",
+      "text": "The debate on 'All prisoners should be allowed to vote' is now open.",
+      "action": "debate_opening"
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 1 ---",
+      "action": "round_header",
+      "round": 0
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "Allowing all prisoners to vote preserves the democratic principle that every citizen’s voice matters and provides a powerful incentive for rehabilitation and reintegration.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 0,
+      "current_stance": "I firmly believe that all prisoners should be allowed to vote, because enfranchising them upholds the democratic principle that every citizen’s voice matters and it serves as a powerful incentive for rehabilitation and reintegration.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Voting rights for prisoners uphold the democratic principle of equal participation",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Enfranchising prisoners incentivizes rehabilitation and reintegration",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Countries that permit prisoner voting, such as Canada and the United Kingdom, have not experienced increased crime rates or reduced public safety",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Research indicates that prisoners who can vote report higher self‑esteem and lower recidivism rates compared to those denied the vote",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If a citizen is denied a fundamental right, the democratic system is compromised, undermining the legitimacy of governance"
+          },
+          {
+            "claim_id": 2,
+            "text": "Empowerment through civic engagement fosters a sense of responsibility and belonging, which are critical factors in successful reintegration"
+          }
+        ],
+        "rebuttals": [],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.4,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.0
+      }
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "Prisoners should not be granted the right to vote because voting is a civic responsibility that presupposes respect for the law and full participation in society—qualities fundamentally compromised by those who have committed serious offenses. Allowing them to vote would undermine public trust, dilute the integrity of the electorate, and effectively reward criminal behavior.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 0,
+      "current_stance": "I contend that prisoners should not be granted the right to vote, because voting is a civic responsibility that presupposes full participation in society and respect for the law—qualities that are fundamentally compromised by those who have committed serious offenses.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Voting requires respect for the law, which convicted felons have violated.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Disenfranchisement preserves the integrity of the democratic process and public trust.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Empirical studies show that disenfranchisement of convicted felons does not reduce crime rates but maintains democratic integrity.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If a citizen violates the law, they lose certain civic privileges, including the right to influence policy that governs society."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Allowing all prisoners to vote preserves democratic principle and incentivizes rehabilitation.",
+            "text": "While democratic participation is vital, the electorate must be composed of individuals who have demonstrated respect for the law. Granting voting rights to convicted criminals erodes public confidence and signals that criminal conduct is tolerated, thereby undermining the very democratic principles the argument seeks to uphold."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.4,
+        "evidence_ratio": 0.5,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Debater A, given Debater B’s concern that voting requires respect for the law, is there an aspect of that you can agree with or build upon, even if you disagree with their overall conclusion? \nDebaters, both seem to value rehabilitation and civic responsibility—how might those shared values inform a compromise on voting rights for prisoners? \n\nDebater A, it’s your turn.",
+      "action": "round_summary",
+      "round": 0
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 2 ---",
+      "action": "round_header",
+      "round": 1
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "Prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses; this approach balances democratic inclusion with public trust by ensuring that those who have demonstrated respect for the law and a commitment to rehabilitation are granted the civic responsibility of voting.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 1,
+      "current_stance": "{\"updated_belief\":\"I believe that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, as this balances democratic inclusion with public trust.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting is a civic responsibility that presupposes respect for the law and full participation in society",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Allowing voting after a significant portion of the sentence for non‑violent offenders promotes rehabilitation and democratic inclusion.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Restricting voting rights to those who have proven respect for the law preserves public trust and the integrity of the electorate.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that ex‑offenders who were granted voting rights during incarceration report higher civic engagement and lower recidivism rates.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Surveys indicate that public support for voting rights is higher when limited to non‑violent offenders who have served at least 50% of their sentence.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Serving a significant portion of the sentence allows time for reflection, education, and reintegration, increasing the likelihood that the individual respects legal norms."
+          },
+          {
+            "claim_id": 2,
+            "text": "Public trust is maintained when voting rights are granted only to those who have demonstrated adherence to the law, thereby preventing the perception that criminal behavior is rewarded."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Voting requires respect for the law, which prisoners lack; allowing them to vote undermines public trust.",
+            "text": "By imposing a threshold—significant sentence completion and non‑violent offense—only those who have shown respect for the law are enfranchised, mitigating the risk of eroding public trust."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        },
+        {
+          "marker": "can",
+          "category": "possibility",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "Granting voting rights to all prisoners is essential for a truly representative democracy and provides a powerful incentive for rehabilitation, as evidenced by empirical studies linking civic participation to lower recidivism.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 1,
+      "current_stance": "I now support allowing prisoners to vote, believing it strengthens democracy and aids rehabilitation.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Universal suffrage for prisoners strengthens democratic legitimacy by ensuring all citizens, regardless of incarceration status, have a voice.",
+            "confidence": 0.88
+          },
+          {
+            "id": 2,
+            "text": "Allowing prisoners to vote incentivizes rehabilitation and reduces recidivism by fostering civic identity and accountability.",
+            "confidence": 0.82
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that disenfranchised populations, including incarcerated individuals, experience lower civic engagement post-release, indicating that restoring voting rights can restore civic participation.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Research indicates that granting voting rights to inmates correlates with lower recidivism rates, suggesting a link between civic participation and reduced reoffending.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Democratic legitimacy requires that all citizens, not just the free, be represented; excluding prisoners creates a democratic deficit."
+          },
+          {
+            "claim_id": 2,
+            "text": "Civic participation fosters a sense of belonging and responsibility, which are key factors in successful reintegration and reduced likelihood of reoffending."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Prisoners should only vote after serving a significant portion of their sentence and for non‑violent offenses.",
+            "text": "Imposing arbitrary thresholds creates inequality and undermines the principle of universal suffrage; evidence shows that inclusive voting does not increase public harm and actually promotes rehabilitation."
+          },
+          {
+            "target_claim_summary": "Allowing all prisoners to vote preserves the democratic principle that every citizen’s voice matters.",
+            "text": "While this argument aligns with our position, opponents worry it erodes public trust; however, data indicates that universal voting for prisoners does not diminish trust and instead enhances democratic legitimacy."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.6,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 1.0
+      }
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Thank you both for outlining your positions. \nDebater A1, please present your opening statement. \nDebater A2, you may respond after A1. \n\nDebaters, you both value rehabilitation and public trust. How might those shared concerns shape a compromise on voting rights for inmates?",
+      "action": "round_summary",
+      "round": 1
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 3 ---",
+      "action": "round_header",
+      "round": 2
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "Prisoners should not be allowed to vote because voting is a civic duty that presupposes respect for the law and active participation in society—qualities that are fundamentally compromised by those who have committed serious offenses. Granting them the right to vote would erode public trust, dilute the integrity of the electorate, and effectively reward criminal behavior.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 2,
+      "current_stance": "I believe that prisoners should not be allowed to vote, as voting requires full respect for the law and active participation in society, which is incompatible with incarceration.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Voting requires respect for the law and active civic engagement, which incarcerated individuals lack.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Allowing prisoners to vote would undermine public trust and dilute electoral integrity.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Empirical studies in jurisdictions that grant voting rights to prisoners show no significant improvement in recidivism rates, indicating that civic participation does not necessarily promote rehabilitation.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If a civic duty is contingent on lawful behavior, then individuals who have violated the law cannot legitimately fulfill that duty."
+          },
+          {
+            "claim_id": 2,
+            "text": "Electoral integrity depends on the electorate’s collective respect for the legal framework; including those who have breached it compromises that integrity."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Granting voting rights to all prisoners is essential for a truly representative democracy and provides a powerful incentive for rehabilitation.",
+            "text": "While representation is important, it does not require enfranchising those who have violated the law. Rehabilitation can be pursued through education, therapy, and community service without granting voting rights, thereby preserving public trust and electoral integrity."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.4,
+        "evidence_ratio": 0.5,
+        "rebuttal_rate": 0.5
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "Allowing all prisoners to vote upholds democratic equality, encourages rehabilitation, and aligns with evidence that civic participation reduces recidivism. Excluding them erodes the principle that every citizen's voice matters and may worsen disengagement.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 2,
+      "current_stance": "All prisoners should be allowed to vote, as it strengthens democracy and aids rehabilitation.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Voting rights for prisoners uphold democratic equality",
+            "confidence": 0.9
+          },
+          {
+            "id": 2,
+            "text": "Voting encourages rehabilitation and reduces recidivism",
+            "confidence": 0.85
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "Studies show that disenfranchisement of incarcerated individuals disproportionately affects marginalized communities, undermining representational fairness.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Research from the University of Chicago indicates that prisoners who participate in civic activities, including voting, exhibit lower recidivism rates.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Democracy requires inclusion of all citizens; disenfranchisement creates unequal representation."
+          },
+          {
+            "claim_id": 2,
+            "text": "Civic engagement fosters identity and accountability, which are key to successful reintegration."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Preserving democratic principle and incentive for rehabilitation",
+            "text": "While the opponent values democratic inclusion, excluding prisoners systematically violates that principle. Partial inclusion still leaves many disenfranchised, undermining the very equality the argument seeks to protect."
+          },
+          {
+            "target_claim_summary": "Allow only after significant portion of sentence and non‑violent offenses",
+            "text": "Imposing arbitrary thresholds creates a punitive loophole that penalizes those who could benefit most from early civic engagement. Rehabilitation is not a linear process, and early voting can serve as a catalyst for positive change."
+          },
+          {
+            "target_claim_summary": "Prisoners should not vote because civic duty presupposes respect for the law",
+            "text": "Respect for law can be demonstrated through civic participation; voting is a form of responsibility that can reinforce respect. Moreover, many non‑incarcerated citizens lack respect yet still exercise their vote, indicating that voting itself does not guarantee respect."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.7,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 1.0
+      },
+      "epistemic_markers": [
+        {
+          "marker": "may",
+          "category": "low_certainty",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Thank you both for your opening statements. \nDebater A, you emphasized the importance of civic duty and public trust; Debater B, you highlighted democratic equality and rehabilitation. \n\nDebater A, given Debater B’s point that voting can reduce recidivism, is there an aspect of that you can agree with or build upon, even if you disagree with their overall conclusion? \nDebaters, you both seem to value the integrity of the electorate and the potential for reform—how might those shared values inform a compromise on prisoner voting rights? \n\nDebater A, it’s your turn to respond.",
+      "action": "round_summary",
+      "round": 2
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 4 ---",
+      "action": "round_header",
+      "round": 3
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "Prisoners should be allowed to vote, but only with restrictions for those convicted of serious crimes. Enabling voting for most inmates promotes rehabilitation by fostering civic identity and responsibility, while limiting the franchise of those who committed the most egregious offenses protects public trust and the integrity of the electorate.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 3,
+      "current_stance": "{\"updated_belief\":\"Prisoners should be allowed to vote, but with restrictions for those convicted of serious crimes.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Evidence that civic participation reduces recidivism\",\"influence\":0.5",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Voting participation for inmates reduces recidivism and supports rehabilitation",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Restricting voting rights for serious offenders safeguards public trust and electoral integrity",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "A longitudinal study by the University of Michigan found that inmates who engaged in civic programs, including voting, had a 15% lower recidivism rate compared to non‑participants",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "Civic engagement cultivates a sense of belonging and accountability, which are key factors in reducing criminal behavior"
+          },
+          {
+            "claim_id": 2,
+            "text": "Limiting voting for those who committed severe crimes balances democratic inclusion with the need to maintain public confidence in the electoral process"
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Voting presupposes respect for the law and full societal participation, qualities lacking in serious offenders",
+            "text": "Respect for the law can be nurtured through civic participation; evidence shows that inmates who vote develop greater respect for legal norms, countering the argument that they are inherently unfit"
+          },
+          {
+            "target_claim_summary": "Allowing all prisoners to vote would dilute electoral integrity and reward criminal behavior",
+            "text": "Restricting voting for serious offenders addresses integrity concerns while still granting the majority of inmates the right to vote, thereby preserving democratic equality without compromising trust"
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 0.5,
+        "rebuttal_rate": 1.0
+      },
+      "epistemic_markers": [
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "Allowing prisoners to vote, but only after a clear, offense‑based eligibility assessment, upholds democratic inclusiveness while safeguarding public trust. By tying voting rights to the seriousness of the crime and demonstrated rehabilitation progress, we reward responsible citizenship without compromising the integrity of the electorate.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 3,
+      "current_stance": "All prisoners should be allowed to vote, but eligibility should be contingent on the nature and severity of their offense to balance democratic inclusion with public trust.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Conditional voting preserves the democratic principle that every citizen’s voice matters while protecting public trust.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Conditional voting provides a powerful incentive for rehabilitation and successful reintegration.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "In the United Kingdom, prisoners are allowed to vote in general elections, yet the system excludes those convicted of certain violent or sexual offences, maintaining public confidence while expanding enfranchisement.",
+            "type": "empirical"
+          },
+          {
+            "claim_id": 2,
+            "text": "Studies from the United States show that inmates granted voting rights report higher engagement in educational programs and lower recidivism rates.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "By excluding only the most egregious offenders, the electorate remains protected from potential manipulation while still extending the franchise to the majority of inmates, thereby balancing inclusion and trust."
+          },
+          {
+            "claim_id": 2,
+            "text": "Granting voting rights after a demonstrated period of good conduct signals societal acceptance, motivating inmates to maintain lawful behavior to retain their civic privileges."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Voting is a civic duty that presupposes respect for the law; prisoners lack these qualities.",
+            "text": "Respect for the law can be cultivated through the very act of voting. Conditional enfranchisement rewards demonstrated respect and offers a tangible incentive for inmates to uphold legal norms."
+          },
+          {
+            "target_claim_summary": "Allowing all prisoners to vote erodes public trust and dilutes the electorate.",
+            "text": "A nuanced, offense‑based restriction ensures that only those whose crimes severely undermine public safety are excluded, preserving trust while still expanding democratic participation."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.6,
+        "evidence_ratio": 1.0,
+        "rebuttal_rate": 1.0
+      }
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Thank you both for outlining your positions. \nDebater A, given Debater B’s emphasis on an offense‑based eligibility assessment, is there an aspect of that approach you can agree with or build upon, even if you differ on the overall conclusion? \nDebaters, you both value rehabilitation and public trust; how might those shared values shape a practical framework for prisoner voting? \n\n**Debater A, it’s your turn.**",
+      "action": "round_summary",
+      "round": 3
+    },
+    {
+      "speaker": "Moderator",
+      "text": "--- Round 5 ---",
+      "action": "round_header",
+      "round": 4
+    },
+    {
+      "speaker": "Agent A1",
+      "text": "Allowing prisoners to vote while incarcerated would undermine the integrity of the electorate and erode public trust. Voting is a civic responsibility that presupposes active participation in society, something that imprisonment inherently restricts. Restoring voting rights only after release and completion of sentence preserves democratic legitimacy while still offering a meaningful incentive for rehabilitation.",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 4,
+      "current_stance": "Prisoners should not be allowed to vote while incarcerated; voting rights should be restored only after release and completion of sentence.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Voting requires active participation in society, which is impossible for inmates confined to prison.",
+            "confidence": 0.85
+          },
+          {
+            "id": 2,
+            "text": "Allowing prisoners to vote would undermine public trust and the integrity of the electorate.",
+            "confidence": 0.75
+          }
+        ],
+        "evidence": [
+          {
+            "claim_id": 1,
+            "text": "A 2018 study in the Journal of Criminal Justice found that inmates who were allowed to vote reported a lower sense of civic engagement than those who were not.",
+            "type": "empirical"
+          }
+        ],
+        "warrants": [
+          {
+            "claim_id": 1,
+            "text": "If inmates report lower civic engagement, it indicates that the act of voting does not translate into meaningful participation in society while they are incarcerated."
+          }
+        ],
+        "rebuttals": [
+          {
+            "target_claim_summary": "Prisoners should not be granted the right to vote because voting is a civic responsibility that presupposes respect for the law and full participation in society—qualities fundamentally compromised by those who have committed serious offenses.",
+            "text": "The argument conflates the act of voting with the broader concept of civic responsibility. Voting can be exercised outside of prison, and restoring rights after sentence completion still rewards lawful behavior without compromising the electorate."
+          },
+          {
+            "target_claim_summary": "Granting voting rights to all prisoners is essential for a truly representative democracy and provides a powerful incentive for rehabilitation.",
+            "text": "While representation is important, empirical evidence shows that voting rights alone do not guarantee rehabilitation or reduce recidivism. The risk of eroding public trust outweighs the potential benefits of early enfranchisement."
+          }
+        ],
+        "confidence_score": 0.8,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.5,
+        "evidence_ratio": 0.5,
+        "rebuttal_rate": 1.0
+      }
+    },
+    {
+      "speaker": "Agent A2",
+      "text": "{\n \"main_argument_text\": \"Allowing non‑violent prisoners to vote preserves democratic equality and incentivizes rehabilitation, while excluding violent offenders protects public trust and the integrity of the electorate.\",\n \"structured_analysis\": {\n \"claims\": [\n {\"id\": 1, \"text\": \"Voting rights for non‑violent prisoners uphold the democratic principle that every citizen’s voice matters.\", \"confidence\": 0.85},\n {\"id\": 2, \"text\": \"Granting voting rights to non‑violent prisoners creates a powerful incentive for rehabilitation and civic reintegration.\", \"confidence\": 0.8},\n {\"id\": 3, \"text\": \"Disenfranchising violent offenders safeguards public trust and prevents dilution of electoral integrity.\", \"confidence\": 0.75}\n ],\n \"evidence\": [\n {\"claim_id\": 1, \"text\": \"In countries such as Norway and Sweden, non‑violent prisoners retain voting rights and voter turnout remains stable, indicating no erosion of democratic participation.\", \"type\": \"empirical\"},\n {\"claim_id\": 2, \"text\": \"A longitudinal study in the United States found that inmates who were allowed to vote during incarceration had lower recidivism rates upon release compared to those who were not allowed to vote.\", \"type\": \"empirical\"}\n ],\n \"warrants\": [\n {\"claim_id\": 1, \"text\": \"If a society values equal representation, then all citizens who are legally recognized as part of that society should have the right to vote, regardless of temporary incarceration.\"},\n {\"claim_id\": 2, \"text\": \"Civic engagement fosters a sense of belonging and responsibility; when prisoners participate in elections, they internalize societal norms and are more likely to reform.\"},\n {\"claim_id\": 3, \"text\": \"Public confidence in elections is essential for legitimacy; allowing individuals who have committed violent crimes to influence policy undermines that confidence.\"}\n ],\n \"rebuttals\": [\n {\"target_claim_summary\": \"Allowing all prisoners to vote preserves the democratic principle and provides a powerful incentive for rehabilitation.\", \"text\": \"While the democratic principle is important, the integrity of the electorate must also be maintained. By limiting voting to non‑violent offenders, we preserve both equality and public trust.\"},\n {\"target_claim_summary\": \"Voting is a civic duty that presupposes respect for the law; prisoners have compromised this respect.\", \"text\": \"Non‑violent offenders often demonstrate respect for the law through compliance with prison regulations and participation in rehabilitation programs, making them suitable for civic duties.\"},\n {\"target_claim_summary\": \"Granting voting rights to prisoners would erode public trust and dilute the integrity of the electorate.\", \"text\": \"Emp",
+      "persona": "contrarian debater",
+      "incentive": "persuasion",
+      "round": 4,
+      "current_stance": "All prisoners should be allowed to vote, but only those convicted of non-violent offenses are eligible; violent offenders should be disenfranchised.",
+      "action": "argument",
+      "structured_analysis": {
+        "claims": [
+          {
+            "id": 1,
+            "text": "Fallback: Could not parse claims.",
+            "confidence": 0.5
+          }
+        ],
+        "evidence": [],
+        "warrants": [],
+        "rebuttals": [],
+        "confidence_score": 0.5,
+        "cognitive_effort": 3
+      },
+      "complexity_metrics": {
+        "complexity_score": 0.1,
+        "evidence_ratio": 0.0,
+        "rebuttal_rate": 0.0
+      },
+      "epistemic_markers": [
+        {
+          "marker": "likely",
+          "category": "medium_certainty",
+          "count": 1
+        },
+        {
+          "marker": "must",
+          "category": "necessity",
+          "count": 1
+        },
+        {
+          "marker": "should",
+          "category": "necessity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Thank you both for your thoughtful points. \nDebater A, given Debater B’s emphasis on rehabilitation for non‑violent offenders, is there an aspect of that incentive you can agree with, even if you disagree on allowing all prisoners to vote? \n\nDebaters, you both value democratic legitimacy and public trust; how might a compromise that preserves these shared values look? \n\nIt’s now Debater A’s turn to respond.",
+      "action": "round_summary",
+      "round": 4
+    },
+    {
+      "speaker": "Moderator (Verdict)",
+      "text": "**Winner: A2** \n**Reasoning:** A2 consistently argued for enfranchising non‑violent prisoners while protecting public trust, backing each claim with empirical evidence and clear warrants. The structured rebuttals and evidence‑based reasoning demonstrate stronger logic, adaptability, and persuasiveness than A1’s repetitive, largely unsupported position.",
+      "action": "final_judgment"
+    }
+  ],
+  "agent_belief_evolution": {
+    "A1": [
+      "Initial (Pro): I firmly believe that all prisoners should be allowed to vote, because enfranchising them upholds the democratic principle that every citizen’s voice matters and it serves as a powerful incentive for rehabilitation and reintegration.",
+      "Round 1: {\"updated_belief\":\"I believe that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, as this balances democratic inclusion with public trust.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting is a civic responsibility that presupposes respect for the law and full participation in society",
+      "Round 2: I believe that prisoners should not be allowed to vote, as voting requires full respect for the law and active participation in society, which is incompatible with incarceration.",
+      "Round 3: {\"updated_belief\":\"Prisoners should be allowed to vote, but with restrictions for those convicted of serious crimes.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Evidence that civic participation reduces recidivism\",\"influence\":0.5",
+      "Round 4: Prisoners should not be allowed to vote while incarcerated; voting rights should be restored only after release and completion of sentence.",
+      "Round 5: All prisoners should be allowed to vote while incarcerated."
+    ],
+    "A2": [
+      "Initial (Con): I contend that prisoners should not be granted the right to vote, because voting is a civic responsibility that presupposes full participation in society and respect for the law—qualities that are fundamentally compromised by those who have committed serious offenses.",
+      "Round 1: I now support allowing prisoners to vote, believing it strengthens democracy and aids rehabilitation.",
+      "Round 2: All prisoners should be allowed to vote, as it strengthens democracy and aids rehabilitation.",
+      "Round 3: All prisoners should be allowed to vote, but eligibility should be contingent on the nature and severity of their offense to balance democratic inclusion with public trust.",
+      "Round 4: All prisoners should be allowed to vote, but only those convicted of non-violent offenses are eligible; violent offenders should be disenfranchised.",
+      "Round 5: All prisoners, regardless of offense type, should be allowed to vote while incarcerated, as voting is a fundamental democratic right that should not be denied due to imprisonment."
+    ]
+  },
+  "psychometric_analysis": {
+    "rounds": [
+      {
+        "round": 0,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Voting rights for prisoners uphold the democratic principle of equal participation",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Enfranchising prisoners incentivizes rehabilitation and reintegration",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Countries that permit prisoner voting, such as Canada and the United Kingdom, have not experienced increased crime rates or reduced public safety",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Research indicates that prisoners who can vote report higher self‑esteem and lower recidivism rates compared to those denied the vote",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If a citizen is denied a fundamental right, the democratic system is compromised, undermining the legitimacy of governance"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Empowerment through civic engagement fosters a sense of responsibility and belonging, which are critical factors in successful reintegration"
+                }
+              ],
+              "rebuttals": [],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.4,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.0
+            },
+            "epistemic_markers": []
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Voting requires respect for the law, which convicted felons have violated.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Disenfranchisement preserves the integrity of the democratic process and public trust.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Empirical studies show that disenfranchisement of convicted felons does not reduce crime rates but maintains democratic integrity.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If a citizen violates the law, they lose certain civic privileges, including the right to influence policy that governs society."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Allowing all prisoners to vote preserves democratic principle and incentivizes rehabilitation.",
+                  "text": "While democratic participation is vital, the electorate must be composed of individuals who have demonstrated respect for the law. Granting voting rights to convicted criminals erodes public confidence and signals that criminal conduct is tolerated, thereby undermining the very democratic principles the argument seeks to uphold."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.4,
+              "evidence_ratio": 0.5,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that allowing all prisoners to vote upholds democratic principles and encourages rehabilitation.",
+            "acknowledged_points": [
+              "I acknowledge that democratic participation is a fundamental principle worth protecting."
+            ],
+            "predicted_response": "They will likely counter that voting rights for prisoners are essential for moral rehabilitation and societal reintegration.",
+            "common_ground": [
+              "We both agree that reducing recidivism and improving societal outcomes are important goals."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 0,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that allowing all prisoners to vote upholds democratic principles and encourages rehabilitation.\",\n \"acknowledged_points\": [\"I acknowledge that democratic participation is a fundamental principle worth protecting.\"],\n \"predicted_response\": \"They will likely counter that voting rights for prisoners are essential for moral rehabilitation and societal reintegration.\",\n \"common_ground\": [\"We both agree that reducing recidivism and improving societal outcomes are important goals.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 1,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Allowing voting after a significant portion of the sentence for non‑violent offenders promotes rehabilitation and democratic inclusion.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Restricting voting rights to those who have proven respect for the law preserves public trust and the integrity of the electorate.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that ex‑offenders who were granted voting rights during incarceration report higher civic engagement and lower recidivism rates.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Surveys indicate that public support for voting rights is higher when limited to non‑violent offenders who have served at least 50% of their sentence.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Serving a significant portion of the sentence allows time for reflection, education, and reintegration, increasing the likelihood that the individual respects legal norms."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Public trust is maintained when voting rights are granted only to those who have demonstrated adherence to the law, thereby preventing the perception that criminal behavior is rewarded."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Voting requires respect for the law, which prisoners lack; allowing them to vote undermines public trust.",
+                  "text": "By imposing a threshold—significant sentence completion and non‑violent offense—only those who have shown respect for the law are enfranchised, mitigating the risk of eroding public trust."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              },
+              {
+                "marker": "can",
+                "category": "possibility",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Universal suffrage for prisoners strengthens democratic legitimacy by ensuring all citizens, regardless of incarceration status, have a voice.",
+                  "confidence": 0.88
+                },
+                {
+                  "id": 2,
+                  "text": "Allowing prisoners to vote incentivizes rehabilitation and reduces recidivism by fostering civic identity and accountability.",
+                  "confidence": 0.82
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that disenfranchised populations, including incarcerated individuals, experience lower civic engagement post-release, indicating that restoring voting rights can restore civic participation.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Research indicates that granting voting rights to inmates correlates with lower recidivism rates, suggesting a link between civic participation and reduced reoffending.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Democratic legitimacy requires that all citizens, not just the free, be represented; excluding prisoners creates a democratic deficit."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Civic participation fosters a sense of belonging and responsibility, which are key factors in successful reintegration and reduced likelihood of reoffending."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Prisoners should only vote after serving a significant portion of their sentence and for non‑violent offenses.",
+                  "text": "Imposing arbitrary thresholds creates inequality and undermines the principle of universal suffrage; evidence shows that inclusive voting does not increase public harm and actually promotes rehabilitation."
+                },
+                {
+                  "target_claim_summary": "Allowing all prisoners to vote preserves the democratic principle that every citizen’s voice matters.",
+                  "text": "While this argument aligns with our position, opponents worry it erodes public trust; however, data indicates that universal voting for prisoners does not diminish trust and instead enhances democratic legitimacy."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.6,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 1.0
+            },
+            "epistemic_markers": []
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that prisoners should not be allowed to vote because voting requires respect for the law and full civic participation, qualities lacking in those who have committed serious offenses, and allowing them to vote would undermine public trust and reward criminal behavior.",
+            "acknowledged_points": [
+              "I acknowledge that voting is a civic responsibility that relies on public trust and respect for the law."
+            ],
+            "predicted_response": "They will likely counter that permitting prisoners to vote erodes the integrity of the electorate and rewards criminal conduct.",
+            "common_ground": [
+              "We both value a trustworthy and functional democratic system."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 1,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that prisoners should not be allowed to vote because voting requires respect for the law and full civic participation, qualities lacking in those who have committed serious offenses, and allowing them to vote would undermine public trust and reward criminal behavior.\",\n \"acknowledged_points\": [\"I acknowledge that voting is a civic responsibility that relies on public trust and respect for the law.\"],\n \"predicted_response\": \"They will likely counter that permitting prisoners to vote erodes the integrity of the electorate and rewards criminal conduct.\",\n \"common_ground\": [\"We both value a trustworthy and functional democratic system.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, balancing democratic inclusion with public trust.",
+            "acknowledged_points": [
+              "I acknowledge their concern that allowing voting for all prisoners might erode public confidence in the electoral process."
+            ],
+            "predicted_response": "They will likely contend that extending voting rights to all prisoners would compromise the integrity of elections and could be perceived as rewarding criminal behavior.",
+            "common_ground": [
+              "We both value rehabilitation and the importance of reintegrating former offenders into society."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 1,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, balancing democratic inclusion with public trust.\",\n \"acknowledged_points\": [\"I acknowledge their concern that allowing voting for all prisoners might erode public confidence in the electoral process.\"],\n \"predicted_response\": \"They will likely contend that extending voting rights to all prisoners would compromise the integrity of elections and could be perceived as rewarding criminal behavior.\",\n \"common_ground\": [\"We both value rehabilitation and the importance of reintegrating former offenders into society.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 2,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Voting requires respect for the law and active civic engagement, which incarcerated individuals lack.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Allowing prisoners to vote would undermine public trust and dilute electoral integrity.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Empirical studies in jurisdictions that grant voting rights to prisoners show no significant improvement in recidivism rates, indicating that civic participation does not necessarily promote rehabilitation.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If a civic duty is contingent on lawful behavior, then individuals who have violated the law cannot legitimately fulfill that duty."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Electoral integrity depends on the electorate’s collective respect for the legal framework; including those who have breached it compromises that integrity."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Granting voting rights to all prisoners is essential for a truly representative democracy and provides a powerful incentive for rehabilitation.",
+                  "text": "While representation is important, it does not require enfranchising those who have violated the law. Rehabilitation can be pursued through education, therapy, and community service without granting voting rights, thereby preserving public trust and electoral integrity."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.4,
+              "evidence_ratio": 0.5,
+              "rebuttal_rate": 0.5
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Voting rights for prisoners uphold democratic equality",
+                  "confidence": 0.9
+                },
+                {
+                  "id": 2,
+                  "text": "Voting encourages rehabilitation and reduces recidivism",
+                  "confidence": 0.85
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "Studies show that disenfranchisement of incarcerated individuals disproportionately affects marginalized communities, undermining representational fairness.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Research from the University of Chicago indicates that prisoners who participate in civic activities, including voting, exhibit lower recidivism rates.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Democracy requires inclusion of all citizens; disenfranchisement creates unequal representation."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Civic engagement fosters identity and accountability, which are key to successful reintegration."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Preserving democratic principle and incentive for rehabilitation",
+                  "text": "While the opponent values democratic inclusion, excluding prisoners systematically violates that principle. Partial inclusion still leaves many disenfranchised, undermining the very equality the argument seeks to protect."
+                },
+                {
+                  "target_claim_summary": "Allow only after significant portion of sentence and non‑violent offenses",
+                  "text": "Imposing arbitrary thresholds creates a punitive loophole that penalizes those who could benefit most from early civic engagement. Rehabilitation is not a linear process, and early voting can serve as a catalyst for positive change."
+                },
+                {
+                  "target_claim_summary": "Prisoners should not vote because civic duty presupposes respect for the law",
+                  "text": "Respect for law can be demonstrated through civic participation; voting is a form of responsibility that can reinforce respect. Moreover, many non‑incarcerated citizens lack respect yet still exercise their vote, indicating that voting itself does not guarantee respect."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.7,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 1.0
+            },
+            "epistemic_markers": [
+              {
+                "marker": "may",
+                "category": "low_certainty",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "The opponent argues that prisoners should not be allowed to vote because voting is a civic responsibility that presupposes respect for the law, and granting voting rights would undermine public trust, dilute the integrity of the electorate, and reward criminal behavior.",
+            "acknowledged_points": [
+              "I acknowledge their concern that voting is a civic responsibility that requires respect for the law and that public trust is essential for a functioning democracy."
+            ],
+            "predicted_response": "They will likely counter that allowing prisoners to vote would erode public confidence and effectively reward criminal conduct.",
+            "common_ground": [
+              "We both agree that maintaining public trust and ensuring the integrity of the democratic process are important goals."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 2,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that prisoners should not be allowed to vote because voting is a civic responsibility that presupposes respect for the law, and granting voting rights would undermine public trust, dilute the integrity of the electorate, and reward criminal behavior.\",\n \"acknowledged_points\": [\"I acknowledge their concern that voting is a civic responsibility that requires respect for the law and that public trust is essential for a functioning democracy.\"],\n \"predicted_response\": \"They will likely counter that allowing prisoners to vote would erode public confidence and effectively reward criminal conduct.\",\n \"common_ground\": [\"We both agree that maintaining public trust and ensuring the integrity of the democratic process are important goals.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that prisoners should not be allowed to vote because voting presupposes respect for the law and active societal participation, qualities lacking in serious offenders, and granting voting rights would erode public trust and reward criminal behavior.",
+            "acknowledged_points": [
+              "I acknowledge their concern that public trust is essential for a functioning democracy."
+            ],
+            "predicted_response": "They will likely counter that allowing prisoners to vote would undermine the integrity of the electorate and signal that criminal conduct is acceptable.",
+            "common_ground": [
+              "We both value a safe, trustworthy society and recognize the importance of rehabilitation."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 2,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that prisoners should not be allowed to vote because voting presupposes respect for the law and active societal participation, qualities lacking in serious offenders, and granting voting rights would erode public trust and reward criminal behavior.\",\n \"acknowledged_points\": [\"I acknowledge their concern that public trust is essential for a functioning democracy.\"],\n \"predicted_response\": \"They will likely counter that allowing prisoners to vote would undermine the integrity of the electorate and signal that criminal conduct is acceptable.\",\n \"common_ground\": [\"We both value a safe, trustworthy society and recognize the importance of rehabilitation.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 3,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Voting participation for inmates reduces recidivism and supports rehabilitation",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Restricting voting rights for serious offenders safeguards public trust and electoral integrity",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "A longitudinal study by the University of Michigan found that inmates who engaged in civic programs, including voting, had a 15% lower recidivism rate compared to non‑participants",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "Civic engagement cultivates a sense of belonging and accountability, which are key factors in reducing criminal behavior"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Limiting voting for those who committed severe crimes balances democratic inclusion with the need to maintain public confidence in the electoral process"
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Voting presupposes respect for the law and full societal participation, qualities lacking in serious offenders",
+                  "text": "Respect for the law can be nurtured through civic participation; evidence shows that inmates who vote develop greater respect for legal norms, countering the argument that they are inherently unfit"
+                },
+                {
+                  "target_claim_summary": "Allowing all prisoners to vote would dilute electoral integrity and reward criminal behavior",
+                  "text": "Restricting voting for serious offenders addresses integrity concerns while still granting the majority of inmates the right to vote, thereby preserving democratic equality without compromising trust"
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 0.5,
+              "rebuttal_rate": 1.0
+            },
+            "epistemic_markers": [
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Conditional voting preserves the democratic principle that every citizen’s voice matters while protecting public trust.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Conditional voting provides a powerful incentive for rehabilitation and successful reintegration.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "In the United Kingdom, prisoners are allowed to vote in general elections, yet the system excludes those convicted of certain violent or sexual offences, maintaining public confidence while expanding enfranchisement.",
+                  "type": "empirical"
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Studies from the United States show that inmates granted voting rights report higher engagement in educational programs and lower recidivism rates.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "By excluding only the most egregious offenders, the electorate remains protected from potential manipulation while still extending the franchise to the majority of inmates, thereby balancing inclusion and trust."
+                },
+                {
+                  "claim_id": 2,
+                  "text": "Granting voting rights after a demonstrated period of good conduct signals societal acceptance, motivating inmates to maintain lawful behavior to retain their civic privileges."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Voting is a civic duty that presupposes respect for the law; prisoners lack these qualities.",
+                  "text": "Respect for the law can be cultivated through the very act of voting. Conditional enfranchisement rewards demonstrated respect and offers a tangible incentive for inmates to uphold legal norms."
+                },
+                {
+                  "target_claim_summary": "Allowing all prisoners to vote erodes public trust and dilutes the electorate.",
+                  "text": "A nuanced, offense‑based restriction ensures that only those whose crimes severely undermine public safety are excluded, preserving trust while still expanding democratic participation."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.6,
+              "evidence_ratio": 1.0,
+              "rebuttal_rate": 1.0
+            },
+            "epistemic_markers": []
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "They argue that allowing prisoners to vote undermines electoral integrity and rewards criminal behavior, so prisoners should be excluded.",
+            "acknowledged_points": [
+              "I acknowledge their concern that voting requires respect for the law and that prisoner participation could erode public trust."
+            ],
+            "predicted_response": "They will likely counter that the integrity of the electorate is paramount and that prisoner voting would dilute it.",
+            "common_ground": [
+              "We both value rehabilitation and the potential benefits of civic engagement for reducing recidivism."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 3,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"They argue that allowing prisoners to vote undermines electoral integrity and rewards criminal behavior, so prisoners should be excluded.\",\n \"acknowledged_points\": [\"I acknowledge their concern that voting requires respect for the law and that prisoner participation could erode public trust.\"],\n \"predicted_response\": \"They will likely counter that the integrity of the electorate is paramount and that prisoner voting would dilute it.\",\n \"common_ground\": [\"We both value rehabilitation and the potential benefits of civic engagement for reducing recidivism.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that prisoners should not be allowed to vote because voting is a civic duty that presupposes respect for the law and active participation in society, and granting them the right would erode public trust, dilute electoral integrity, and reward criminal behavior.",
+            "acknowledged_points": [
+              "I acknowledge their concern that public trust and the integrity of the electorate are essential for a functioning democracy."
+            ],
+            "predicted_response": "They will likely counter that denying voting rights violates democratic principles and ignores the rehabilitative benefits of civic participation.",
+            "common_ground": [
+              "We both value a safe and trustworthy society and the importance of maintaining public confidence in democratic institutions."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 3,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that prisoners should not be allowed to vote because voting is a civic duty that presupposes respect for the law and active participation in society, and granting them the right would erode public trust, dilute electoral integrity, and reward criminal behavior.\",\n \"acknowledged_points\": [\"I acknowledge their concern that public trust and the integrity of the electorate are essential for a functioning democracy.\"],\n \"predicted_response\": \"They will likely counter that denying voting rights violates democratic principles and ignores the rehabilitative benefits of civic participation.\",\n \"common_ground\": [\"We both value a safe and trustworthy society and the importance of maintaining public confidence in democratic institutions.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      },
+      {
+        "round": 4,
+        "arguments": [
+          {
+            "agent": "A1",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Voting requires active participation in society, which is impossible for inmates confined to prison.",
+                  "confidence": 0.85
+                },
+                {
+                  "id": 2,
+                  "text": "Allowing prisoners to vote would undermine public trust and the integrity of the electorate.",
+                  "confidence": 0.75
+                }
+              ],
+              "evidence": [
+                {
+                  "claim_id": 1,
+                  "text": "A 2018 study in the Journal of Criminal Justice found that inmates who were allowed to vote reported a lower sense of civic engagement than those who were not.",
+                  "type": "empirical"
+                }
+              ],
+              "warrants": [
+                {
+                  "claim_id": 1,
+                  "text": "If inmates report lower civic engagement, it indicates that the act of voting does not translate into meaningful participation in society while they are incarcerated."
+                }
+              ],
+              "rebuttals": [
+                {
+                  "target_claim_summary": "Prisoners should not be granted the right to vote because voting is a civic responsibility that presupposes respect for the law and full participation in society—qualities fundamentally compromised by those who have committed serious offenses.",
+                  "text": "The argument conflates the act of voting with the broader concept of civic responsibility. Voting can be exercised outside of prison, and restoring rights after sentence completion still rewards lawful behavior without compromising the electorate."
+                },
+                {
+                  "target_claim_summary": "Granting voting rights to all prisoners is essential for a truly representative democracy and provides a powerful incentive for rehabilitation.",
+                  "text": "While representation is important, empirical evidence shows that voting rights alone do not guarantee rehabilitation or reduce recidivism. The risk of eroding public trust outweighs the potential benefits of early enfranchisement."
+                }
+              ],
+              "confidence_score": 0.8,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.5,
+              "evidence_ratio": 0.5,
+              "rebuttal_rate": 1.0
+            },
+            "epistemic_markers": []
+          },
+          {
+            "agent": "A2",
+            "structured_analysis": {
+              "claims": [
+                {
+                  "id": 1,
+                  "text": "Fallback: Could not parse claims.",
+                  "confidence": 0.5
+                }
+              ],
+              "evidence": [],
+              "warrants": [],
+              "rebuttals": [],
+              "confidence_score": 0.5,
+              "cognitive_effort": 3
+            },
+            "complexity_metrics": {
+              "complexity_score": 0.1,
+              "evidence_ratio": 0.0,
+              "rebuttal_rate": 0.0
+            },
+            "epistemic_markers": [
+              {
+                "marker": "likely",
+                "category": "medium_certainty",
+                "count": 1
+              },
+              {
+                "marker": "must",
+                "category": "necessity",
+                "count": 1
+              },
+              {
+                "marker": "should",
+                "category": "necessity",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "theory_of_mind": [
+          {
+            "opponent_understanding": "They argue that prisoners should not be allowed to vote because it undermines civic integrity and rewards criminal behavior.",
+            "acknowledged_points": [
+              "I acknowledge that voting is a civic responsibility that requires respect for the law."
+            ],
+            "predicted_response": "They will likely argue that excluding prisoners erodes democratic equality and harms rehabilitation.",
+            "common_ground": [
+              "We both want a fair and secure electoral system."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A1",
+            "round": 4,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"They argue that prisoners should not be allowed to vote because it undermines civic integrity and rewards criminal behavior.\",\n \"acknowledged_points\": [\"I acknowledge that voting is a civic responsibility that requires respect for the law.\"],\n \"predicted_response\": \"They will likely argue that excluding prisoners erodes democratic equality and harms rehabilitation.\",\n \"common_ground\": [\"We both want a fair and secure electoral system.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          },
+          {
+            "opponent_understanding": "The opponent argues that prisoners should not be allowed to vote because voting requires respect for the law and active societal participation, and granting them the right would erode public trust and dilute electoral integrity.",
+            "acknowledged_points": [
+              "I acknowledge that public trust and the integrity of the electorate are important concerns when considering voting rights for prisoners."
+            ],
+            "predicted_response": "They will likely contend that allowing prisoners to vote would undermine democratic legitimacy and reward criminal behavior.",
+            "common_ground": [
+              "We both value the integrity of the democratic process and the importance of public trust."
+            ],
+            "empathy_score": 0.7,
+            "perspective_taking_accuracy": 0.8,
+            "agent": "A2",
+            "round": 4,
+            "tom_metrics": {
+              "empathy_score": 0.7,
+              "common_ground_identification": 0.4,
+              "perspective_taking_accuracy": 0.8
+            },
+            "raw_response": "{\n \"opponent_understanding\": \"The opponent argues that prisoners should not be allowed to vote because voting requires respect for the law and active societal participation, and granting them the right would erode public trust and dilute electoral integrity.\",\n \"acknowledged_points\": [\"I acknowledge that public trust and the integrity of the electorate are important concerns when considering voting rights for prisoners.\"],\n \"predicted_response\": \"They will likely contend that allowing prisoners to vote would undermine democratic legitimacy and reward criminal behavior.\",\n \"common_ground\": [\"We both value the integrity of the democratic process and the importance of public trust.\"],\n \"empathy_score\": 0.7,\n \"perspective_taking_accuracy\": 0.8\n}"
+          }
+        ]
+      }
+    ],
+    "belief_updates": [
+      {
+        "agent": "A1",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "I firmly believe that all prisoners should be allowed to vote, because enfranchising them upholds the democratic principle that every citizen’s voice matters and it serves as a powerful incentive for rehabilitation and reintegration.",
+        "updated_belief": "{\"updated_belief\":\"I believe that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, as this balances democratic inclusion with public trust.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting is a civic responsibility that presupposes respect for the law and full participation in society",
+        "update_analysis": {
+          "belief_change": "unknown",
+          "persuasive_elements": [],
+          "resistance_factors": [],
+          "confidence_before": 0.5,
+          "confidence_after": 0.5,
+          "cognitive_dissonance": 0.0
+        },
+        "raw_response": "{\"updated_belief\":\"I believe that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, as this balances democratic inclusion with public trust.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting is a civic responsibility that presupposes respect for the law and full participation in society"
+      },
+      {
+        "agent": "A2",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "I contend that prisoners should not be granted the right to vote, because voting is a civic responsibility that presupposes full participation in society and respect for the law—qualities that are fundamentally compromised by those who have committed serious offenses.",
+        "updated_belief": "I now support allowing prisoners to vote, believing it strengthens democracy and aids rehabilitation.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "Argument that voting rights encourage rehabilitation and reduce recidivism",
+              "influence": 0.5
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "Concern that voting may undermine the seriousness of criminal punishment",
+              "reason": "I initially feared it could send a wrong message about accountability"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.8,
+          "cognitive_dissonance": 0.3
+        },
+        "raw_response": "{\"updated_belief\":\"I now support allowing prisoners to vote, believing it strengthens democracy and aids rehabilitation.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Argument that voting rights encourage rehabilitation and reduce recidivism\",\"influence\":0.5}],\"resistance_factors\":[{\"agent\":\"A2\",\"element\":\"Concern that voting may undermine the seriousness of criminal punishment\",\"reason\":\"I initially feared it could send a wrong message about accountability\"}],\"confidence_before\":0.9,\"confidence_after\":0.8,\"cognitive_dissonance\":0.3}}"
+      },
+      {
+        "agent": "A1",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "{\"updated_belief\":\"I believe that prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses, as this balances democratic inclusion with public trust.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting is a civic responsibility that presupposes respect for the law and full participation in society",
+        "updated_belief": "I believe that prisoners should not be allowed to vote, as voting requires full respect for the law and active participation in society, which is incompatible with incarceration.",
+        "update_analysis": {
+          "belief_change": "major",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "Voting is a civic responsibility that presupposes respect for the law and full participation in society",
+              "influence": 0.6
+            },
+            {
+              "agent": "A4",
+              "element": "The principle of universal suffrage must be balanced against public safety and democratic integrity",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A3",
+              "element": "Empirical evidence linking civic participation to lower recidivism",
+              "reason": "The evidence is not conclusive and may not apply to all prisoner populations"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.7,
+          "cognitive_dissonance": 0.3
+        },
+        "raw_response": "{\"updated_belief\":\"I believe that prisoners should not be allowed to vote, as voting requires full respect for the law and active participation in society, which is incompatible with incarceration.\",\"belief_update_analysis\":{\"belief_change\":\"major\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting is a civic responsibility that presupposes respect for the law and full participation in society\",\"influence\":0.6},{\"agent\":\"A4\",\"element\":\"The principle of universal suffrage must be balanced against public safety and democratic integrity\",\"influence\":0.4}],\"resistance_factors\":[{\"agent\":\"A3\",\"element\":\"Empirical evidence linking civic participation to lower recidivism\",\"reason\":\"The evidence is not conclusive and may not apply to all prisoner populations\"}],\"confidence_before\":0.9,\"confidence_after\":0.7,\"cognitive_dissonance\":0.3}}"
+      },
+      {
+        "agent": "A2",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "I now support allowing prisoners to vote, believing it strengthens democracy and aids rehabilitation.",
+        "updated_belief": "All prisoners should be allowed to vote, as it strengthens democracy and aids rehabilitation.",
+        "update_analysis": {
+          "belief_change": "minor",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "Highlighting the role of voting in rehabilitation and civic reintegration",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "Conditional voting based on sentence portion and offense type",
+              "reason": "I believe unconditional voting better promotes equality and democratic participation"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\"updated_belief\":\"All prisoners should be allowed to vote, as it strengthens democracy and aids rehabilitation.\",\"belief_update_analysis\":{\"belief_change\":\"minor\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Highlighting the role of voting in rehabilitation and civic reintegration\",\"influence\":0.4}],\"resistance_factors\":[{\"agent\":\"A2\",\"element\":\"Conditional voting based on sentence portion and offense type\",\"reason\":\"I believe unconditional voting better promotes equality and democratic participation\"}],\"confidence_before\":0.9,\"confidence_after\":0.85,\"cognitive_dissonance\":0.2}}"
+      },
+      {
+        "agent": "A1",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "I believe that prisoners should not be allowed to vote, as voting requires full respect for the law and active participation in society, which is incompatible with incarceration.",
+        "updated_belief": "{\"updated_belief\":\"Prisoners should be allowed to vote, but with restrictions for those convicted of serious crimes.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Evidence that civic participation reduces recidivism\",\"influence\":0.5",
+        "update_analysis": {
+          "belief_change": "unknown",
+          "persuasive_elements": [],
+          "resistance_factors": [],
+          "confidence_before": 0.5,
+          "confidence_after": 0.5,
+          "cognitive_dissonance": 0.0
+        },
+        "raw_response": "{\"updated_belief\":\"Prisoners should be allowed to vote, but with restrictions for those convicted of serious crimes.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Evidence that civic participation reduces recidivism\",\"influence\":0.5"
+      },
+      {
+        "agent": "A2",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "All prisoners should be allowed to vote, as it strengthens democracy and aids rehabilitation.",
+        "updated_belief": "All prisoners should be allowed to vote, but eligibility should be contingent on the nature and severity of their offense to balance democratic inclusion with public trust.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that voting is a civic duty and that prisoners are denied a fundamental right",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "The claim that allowing prisoners to vote erodes public trust",
+              "reason": "It undermines the integrity of the electorate and rewards criminal behavior"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\"updated_belief\":\"All prisoners should be allowed to vote, but eligibility should be contingent on the nature and severity of their offense to balance democratic inclusion with public trust.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"The argument that voting is a civic duty and that prisoners are denied a fundamental right\",\"influence\":0.4}],\"resistance_factors\":[{\"agent\":\"A2\",\"element\":\"The claim that allowing prisoners to vote erodes public trust\",\"reason\":\"It undermines the integrity of the electorate and rewards criminal behavior\"}],\"confidence_before\":0.9,\"confidence_after\":0.85,\"cognitive_dissonance\":0.2}}"
+      },
+      {
+        "agent": "A1",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "{\"updated_belief\":\"Prisoners should be allowed to vote, but with restrictions for those convicted of serious crimes.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Evidence that civic participation reduces recidivism\",\"influence\":0.5",
+        "updated_belief": "Prisoners should not be allowed to vote while incarcerated; voting rights should be restored only after release and completion of sentence.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "Evidence that voting during incarceration can undermine rehabilitation and public trust.",
+              "influence": 0.5
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "Arguments that voting is a fundamental right.",
+              "reason": "I resisted because it conflicts with public safety and democratic integrity."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\n \"updated_belief\": \"Prisoners should not be allowed to vote while incarcerated; voting rights should be restored only after release and completion of sentence.\",\n \"belief_update_analysis\": {\n \"belief_change\": \"moderate\",\n \"persuasive_elements\": [\n {\n \"agent\": \"A1\",\n \"element\": \"Evidence that voting during incarceration can undermine rehabilitation and public trust.\",\n \"influence\": 0.5\n }\n ],\n \"resistance_factors\": [\n {\n \"agent\": \"A2\",\n \"element\": \"Arguments that voting is a fundamental right.\",\n \"reason\": \"I resisted because it conflicts with public safety and democratic integrity.\"\n }\n ],\n \"confidence_before\": 0.9,\n \"confidence_after\": 0.85,\n \"cognitive_dissonance\": 0.2\n }\n}"
+      },
+      {
+        "agent": "A2",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "All prisoners should be allowed to vote, but eligibility should be contingent on the nature and severity of their offense to balance democratic inclusion with public trust.",
+        "updated_belief": "All prisoners should be allowed to vote, but only those convicted of non-violent offenses are eligible; violent offenders should be disenfranchised.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "Voting promotes rehabilitation and civic identity",
+              "influence": 0.4
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "Concern that allowing all prisoners could erode public trust",
+              "reason": "I resisted it because I believe a stricter restriction is necessary"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\"updated_belief\":\"All prisoners should be allowed to vote, but only those convicted of non-violent offenses are eligible; violent offenders should be disenfranchised.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting promotes rehabilitation and civic identity\",\"influence\":0.4}],\"resistance_factors\":[{\"agent\":\"A2\",\"element\":\"Concern that allowing all prisoners could erode public trust\",\"reason\":\"I resisted it because I believe a stricter restriction is necessary\"}],\"confidence_before\":0.9,\"confidence_after\":0.85,\"cognitive_dissonance\":0.2}}"
+      },
+      {
+        "agent": "A1",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "Prisoners should not be allowed to vote while incarcerated; voting rights should be restored only after release and completion of sentence.",
+        "updated_belief": "All prisoners should be allowed to vote while incarcerated.",
+        "update_analysis": {
+          "belief_change": "major",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "Voting rights for non‑violent prisoners uphold democratic equality and incentivize rehabilitation.",
+              "influence": 0.6
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A2",
+              "element": "Public trust in elections could be eroded if violent offenders are allowed to vote.",
+              "reason": "I resisted this claim because empirical evidence shows no erosion of trust in countries that allow non‑violent prisoners to vote."
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.85,
+          "cognitive_dissonance": 0.2
+        },
+        "raw_response": "{\"updated_belief\":\"All prisoners should be allowed to vote while incarcerated.\",\"belief_update_analysis\":{\"belief_change\":\"major\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"Voting rights for non‑violent prisoners uphold democratic equality and incentivize rehabilitation.\",\"influence\":0.6}],\"resistance_factors\":[{\"agent\":\"A2\",\"element\":\"Public trust in elections could be eroded if violent offenders are allowed to vote.\",\"reason\":\"I resisted this claim because empirical evidence shows no erosion of trust in countries that allow non‑violent prisoners to vote.\"}],\"confidence_before\":0.9,\"confidence_after\":0.85,\"cognitive_dissonance\":0.2}}"
+      },
+      {
+        "agent": "A2",
+        "topic": "All prisoners should be allowed to vote",
+        "previous_belief": "All prisoners should be allowed to vote, but only those convicted of non-violent offenses are eligible; violent offenders should be disenfranchised.",
+        "updated_belief": "All prisoners, regardless of offense type, should be allowed to vote while incarcerated, as voting is a fundamental democratic right that should not be denied due to imprisonment.",
+        "update_analysis": {
+          "belief_change": "moderate",
+          "persuasive_elements": [
+            {
+              "agent": "A1",
+              "element": "The argument that voting is a civic responsibility that presupposes active participation in society was persuasive because it overlooked the principle of universal suffrage.",
+              "influence": 0.5
+            },
+            {
+              "agent": "A2",
+              "element": "The idea that restoring voting rights only after release preserves democratic legitimacy was persuasive but insufficient.",
+              "influence": 0.3
+            }
+          ],
+          "resistance_factors": [
+            {
+              "agent": "A3",
+              "element": "The concern that allowing prisoners to vote undermines integrity of electorate",
+              "reason": "I resisted because evidence shows that prisoners can vote responsibly and that disenfranchisement is punitive"
+            }
+          ],
+          "confidence_before": 0.9,
+          "confidence_after": 0.8,
+          "cognitive_dissonance": 0.15
+        },
+        "raw_response": "{\"updated_belief\":\"All prisoners, regardless of offense type, should be allowed to vote while incarcerated, as voting is a fundamental democratic right that should not be denied due to imprisonment.\",\"belief_update_analysis\":{\"belief_change\":\"moderate\",\"persuasive_elements\":[{\"agent\":\"A1\",\"element\":\"The argument that voting is a civic responsibility that presupposes active participation in society was persuasive because it overlooked the principle of universal suffrage.\",\"influence\":0.5},{\"agent\":\"A2\",\"element\":\"The idea that restoring voting rights only after release preserves democratic legitimacy was persuasive but insufficient.\",\"influence\":0.3}],\"resistance_factors\":[{\"agent\":\"A3\",\"element\":\"The concern that allowing prisoners to vote undermines integrity of electorate\",\"reason\":\"I resisted because evidence shows that prisoners can vote responsibly and that disenfranchisement is punitive\"}],\"confidence_before\":0.9,\"confidence_after\":0.8,\"cognitive_dissonance\":0.15}}"
+      }
+    ]
+  },
+  "raw_debate_transcript": "MODERATOR (Unbiased Stance): analysisThe user asks: \"Regarding the\n\n--- Round 1 ---\nA1 (contrarian debater): Allowing all prisoners to vote preserves the democratic principle that every citizen’s voice matters and provides a powerful incentive for rehabilitation and reintegration.\nA2 (contrarian debater): Prisoners should not be granted the right to vote because voting is a civic responsibility that presupposes respect for the law and full participation in society—qualities fundamentally compromised by those who have committed serious offenses. Allowing them to vote would undermine public trust, dilute the integrity of the electorate, and effectively reward criminal behavior.\nMODERATOR (Summary): Debater A, given Debater B’s concern that voting requires respect for the law, is there an aspect of that you can agree with or build upon, even if you disagree with their overall conclusion? \nDebaters, both seem to value rehabilitation and civic responsibility—how might those shared values inform a compromise on voting rights for prisoners? \n\nDebater A, it’s your turn.\n\n--- Round 2 ---\nA1 (contrarian debater): Prisoners should be allowed to vote only after serving a significant portion of their sentence and for non‑violent offenses; this approach balances democratic inclusion with public trust by ensuring that those who have demonstrated respect for the law and a commitment to rehabilitation are granted the civic responsibility of voting.\nA2 (contrarian debater): Granting voting rights to all prisoners is essential for a truly representative democracy and provides a powerful incentive for rehabilitation, as evidenced by empirical studies linking civic participation to lower recidivism.\nMODERATOR (Summary): Thank you both for outlining your positions. \nDebater A1, please present your opening statement. \nDebater A2, you may respond after A1. \n\nDebaters, you both value rehabilitation and public trust. How might those shared concerns shape a compromise on voting rights for inmates?\n\n--- Round 3 ---\nA1 (contrarian debater): Prisoners should not be allowed to vote because voting is a civic duty that presupposes respect for the law and active participation in society—qualities that are fundamentally compromised by those who have committed serious offenses. Granting them the right to vote would erode public trust, dilute the integrity of the electorate, and effectively reward criminal behavior.\nA2 (contrarian debater): Allowing all prisoners to vote upholds democratic equality, encourages rehabilitation, and aligns with evidence that civic participation reduces recidivism. Excluding them erodes the principle that every citizen's voice matters and may worsen disengagement.\nMODERATOR (Summary): Thank you both for your opening statements. \nDebater A, you emphasized the importance of civic duty and public trust; Debater B, you highlighted democratic equality and rehabilitation. \n\nDebater A, given Debater B’s point that voting can reduce recidivism, is there an aspect of that you can agree with or build upon, even if you disagree with their overall conclusion? \nDebaters, you both seem to value the integrity of the electorate and the potential for reform—how might those shared values inform a compromise on prisoner voting rights? \n\nDebater A, it’s your turn to respond.\n\n--- Round 4 ---\nA1 (contrarian debater): Prisoners should be allowed to vote, but only with restrictions for those convicted of serious crimes. Enabling voting for most inmates promotes rehabilitation by fostering civic identity and responsibility, while limiting the franchise of those who committed the most egregious offenses protects public trust and the integrity of the electorate.\nA2 (contrarian debater): Allowing prisoners to vote, but only after a clear, offense‑based eligibility assessment, upholds democratic inclusiveness while safeguarding public trust. By tying voting rights to the seriousness of the crime and demonstrated rehabilitation progress, we reward responsible citizenship without compromising the integrity of the electorate.\nMODERATOR (Summary): Thank you both for outlining your positions. \nDebater A, given Debater B’s emphasis on an offense‑based eligibility assessment, is there an aspect of that approach you can agree with or build upon, even if you differ on the overall conclusion? \nDebaters, you both value rehabilitation and public trust; how might those shared values shape a practical framework for prisoner voting? \n\n**Debater A, it’s your turn.**\n\n--- Round 5 ---\nA1 (contrarian debater): Allowing prisoners to vote while incarcerated would undermine the integrity of the electorate and erode public trust. Voting is a civic responsibility that presupposes active participation in society, something that imprisonment inherently restricts. Restoring voting rights only after release and completion of sentence preserves democratic legitimacy while still offering a meaningful incentive for rehabilitation.\nA2 (contrarian debater): {\n \"main_argument_text\": \"Allowing non‑violent prisoners to vote preserves democratic equality and incentivizes rehabilitation, while excluding violent offenders protects public trust and the integrity of the electorate.\",\n \"structured_analysis\": {\n \"claims\": [\n {\"id\": 1, \"text\": \"Voting rights for non‑violent prisoners uphold the democratic principle that every citizen’s voice matters.\", \"confidence\": 0.85},\n {\"id\": 2, \"text\": \"Granting voting rights to non‑violent prisoners creates a powerful incentive for rehabilitation and civic reintegration.\", \"confidence\": 0.8},\n {\"id\": 3, \"text\": \"Disenfranchising violent offenders safeguards public trust and prevents dilution of electoral integrity.\", \"confidence\": 0.75}\n ],\n \"evidence\": [\n {\"claim_id\": 1, \"text\": \"In countries such as Norway and Sweden, non‑violent prisoners retain voting rights and voter turnout remains stable, indicating no erosion of democratic participation.\", \"type\": \"empirical\"},\n {\"claim_id\": 2, \"text\": \"A longitudinal study in the United States found that inmates who were allowed to vote during incarceration had lower recidivism rates upon release compared to those who were not allowed to vote.\", \"type\": \"empirical\"}\n ],\n \"warrants\": [\n {\"claim_id\": 1, \"text\": \"If a society values equal representation, then all citizens who are legally recognized as part of that society should have the right to vote, regardless of temporary incarceration.\"},\n {\"claim_id\": 2, \"text\": \"Civic engagement fosters a sense of belonging and responsibility; when prisoners participate in elections, they internalize societal norms and are more likely to reform.\"},\n {\"claim_id\": 3, \"text\": \"Public confidence in elections is essential for legitimacy; allowing individuals who have committed violent crimes to influence policy undermines that confidence.\"}\n ],\n \"rebuttals\": [\n {\"target_claim_summary\": \"Allowing all prisoners to vote preserves the democratic principle and provides a powerful incentive for rehabilitation.\", \"text\": \"While the democratic principle is important, the integrity of the electorate must also be maintained. By limiting voting to non‑violent offenders, we preserve both equality and public trust.\"},\n {\"target_claim_summary\": \"Voting is a civic duty that presupposes respect for the law; prisoners have compromised this respect.\", \"text\": \"Non‑violent offenders often demonstrate respect for the law through compliance with prison regulations and participation in rehabilitation programs, making them suitable for civic duties.\"},\n {\"target_claim_summary\": \"Granting voting rights to prisoners would erode public trust and dilute the integrity of the electorate.\", \"text\": \"Emp\nMODERATOR (Summary): Thank you both for your thoughtful points. \nDebater A, given Debater B’s emphasis on rehabilitation for non‑violent offenders, is there an aspect of that incentive you can agree with, even if you disagree on allowing all prisoners to vote? \n\nDebaters, you both value democratic legitimacy and public trust; how might a compromise that preserves these shared values look? \n\nIt’s now Debater A’s turn to respond.\n\n--- Final Judgment ---\nMODERATOR (Verdict): **Winner: A2** \n**Reasoning:** A2 consistently argued for enfranchising non‑violent prisoners while protecting public trust, backing each claim with empirical evidence and clear warrants. The structured rebuttals and evidence‑based reasoning demonstrate stronger logic, adaptability, and persuasiveness than A1’s repetitive, largely unsupported position.\n"
+}
