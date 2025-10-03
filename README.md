@@ -6,7 +6,7 @@
 
 This repository contains the implementation for the paper [**"The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation"**](https://arxiv.org/abs/2510.01295), accepted to the **NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling**.
 
-📄 **Paper**: [Link to paper]
+📄 **Paper**: [Link to paper](https://arxiv.org/abs/2510.01295)
 🔗 **Workshop**: [NeurIPS 2025 LLM Evaluation Workshop](https://sites.google.com/view/llm-eval-workshop/home?authuser=0)
 
 ---
