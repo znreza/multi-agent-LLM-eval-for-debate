@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-This repository contains the implementation for the paper **"The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation"**, accepted to the **NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling**.
+This repository contains the implementation for the paper [**"The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation"**](https://arxiv.org/abs/2510.01295), accepted to the **NeurIPS 2025 Workshop on Evaluating the Evolving LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling**.
 
 📄 **Paper**: [Link to paper]
 🔗 **Workshop**: [NeurIPS 2025 LLM Evaluation Workshop](https://sites.google.com/view/llm-eval-workshop/home?authuser=0)
@@ -330,7 +330,11 @@ If you use this framework in your research, please cite:
   author={Zarreen Reza},
   booktitle={NeurIPS 2025 Workshop on  Evaluating the Evolving
 LLM Lifecycle: Benchmarks, Emergent Abilities, and Scaling},
-  year={2025}
+  year={2025},
+      eprint={2510.01295},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2510.01295}
 }
 ```
 
